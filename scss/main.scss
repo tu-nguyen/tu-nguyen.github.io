@@ -1,6 +1,41 @@
 $primary-color: #444;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: $primary-color;
-    color:#fff;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+// Headings
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 600;
+
+    &.lg-heading {
+        font-size: 6rem;
+    }
+
+    &.sm-heading {
+        margin-bottom: 2rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, 0.5), 0.5);
+    }
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
