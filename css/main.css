@@ -1,4 +1,4 @@
-@import url('https//fonts.googleapis.com/css?family=Nunito:300,400,700');
+/* @import url('https//fonts.googleapis.com/css?family=Nunito:300,400,700');
 body {
     font-family: 'Nunito', sans-serif;
     background: #EFF1F7;
@@ -12,7 +12,6 @@ body {
     rgba(249, 107, 142, 1),
     rgba(218, 103, 230, 1),
     rgba(130, 125, 253, 1)); 
-    /* background: gray; */
     justify-content: center;
 }
 .about {
@@ -49,7 +48,7 @@ body {
     "contact"
     "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 130px 800px 250px;
+    grid-template-rows: 130px 800px 800px 250px;
 }
 .content, .sidebar, .about, .experience, 
 .projects, .education, .contact, .footer {
@@ -81,12 +80,27 @@ nav li a:hover {
     margin: 0 auto;
     text-align: center;
 }
-.landing h1 {
+.landing-content h1 {
     font-size: 2em;
     font-weight: 300;
     color: #373d46;
 }
 .landing-content p {
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #373d46;
+}
+.about {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-content h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #373d46;
+}
+.about-content p {
     font-weight: 300;
     line-height: 1.8em;
     color: #373d46;
@@ -109,4 +123,4 @@ footer ul li a {
 }
 footer p {
     font-size: 0.8em;
-}
+} */
