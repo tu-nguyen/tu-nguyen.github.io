@@ -136,6 +136,6 @@ nav ul li a {
     display: grid;
     grid-template-rows: 50% 50%;
     word-wrap: break-word;
-  word-break: break-all;
+    word-break: break-all;
     
 }
