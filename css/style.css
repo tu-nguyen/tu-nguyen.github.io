@@ -147,17 +147,30 @@ nav ul li a:hover, #navbar ul li.current a {
     /* margin: 15vh auto 0 auto; */
     display: grid;
     grid-template-rows: 20% 80%;
+    grid-gap: 1em;
 }
 
 #aboutme .container .section-content {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 45% 55%;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
 }
 
-#aboutme .container .aboutme-details {
+#aboutme .container .section-content .col-1-3 img{
+    padding-bottom:10px;
+}
+
+/* #aboutme .container .section-content .col-1-3 .links a{
+    padding: 10px 5px;
+    text-decoration: none;
+} */
+
+.aboutme-details {
     display: grid;
     grid-template-rows: 50% 50%;
+    grid-gap: 1em;
     word-wrap: break-word;
     word-break: break-all;
-    
 }
