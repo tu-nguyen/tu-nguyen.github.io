@@ -24,7 +24,13 @@ section {
     padding: 60px 0;
 }
 
-
+.section-title {
+    font-size: 3.750em;
+    font-weight: 900;
+    line-height: 1em;
+    padding-top: 60px;
+    
+}
 
 .section-content { margin-top: 30px; }
 .column > :first-child { margin-top: 0; }
