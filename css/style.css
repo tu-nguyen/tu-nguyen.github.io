@@ -19,8 +19,11 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     height: auto;
+    padding-top: 10px;
 }
 
 a {
@@ -41,17 +44,26 @@ p {
     padding: 1em 0;
 }
 
+.section-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
 .section-title h2 {
     font-size: 2.750em;
     font-weight: 900;
     line-height: 1em;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    
 }
 
 
 
 .container {
-
+    /* display: grid;
+    grid-template-rows: 15vh 85vh; */
 }
 
 /* landing */
@@ -96,10 +108,31 @@ nav ul li a:hover, #navbar ul li.current a {
     top: 0;
     width: 100%;
     background-color: #333;
+    height: 15vh;
 }
 
+/* about me */
+#aboutme .container {
+    display: grid;
+    grid-template-rows: 15vh 15vh auto;
+    justify-items: center;
+    align-items: center;
+    
+}
 
+#aboutme .links ul {
+    list-style: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;
+    justify-items: center;
+    padding: 4px 0;
+}
 
+#aboutme .links ul li a {
+    display: block;
+    text-decoration: none;
+}
 
 
 
