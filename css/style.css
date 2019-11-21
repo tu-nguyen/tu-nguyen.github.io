@@ -33,9 +33,9 @@ a {
 h1, h2, h3, h4, h5 {
     margin: 0;
 	padding: 10px;
-	font-size: 1.750em;
-    font-weight: 900;
-    line-height: 1em;
+	/* font-size: 1.750em; */
+    font-weight: 900; 
+    /* line-height: 1em; */
     letter-spacing: 0.1em;
 }
 
@@ -51,7 +51,7 @@ p {
     justify-content: center; 
 }
 
-.section-title h2 {
+h2 {
     font-size: 2.750em;
     font-weight: 900;
     line-height: 1em;
@@ -114,10 +114,9 @@ nav ul li a:hover, #navbar ul li.current a {
 /* about me */
 #aboutme .container {
     display: grid;
-    grid-template-rows: 15vh 15vh auto;
+    grid-template-rows: 10vh 15vh auto;
     justify-items: center;
     align-items: center;
-    
 }
 
 #aboutme .links ul {
@@ -126,7 +125,7 @@ nav ul li a:hover, #navbar ul li.current a {
     grid-template-columns: auto auto auto;
     grid-gap: 16px;
     justify-items: center;
-    padding: 4px 0;
+    padding: 10px 0;
 }
 
 #aboutme .links ul li a {
@@ -134,14 +133,30 @@ nav ul li a:hover, #navbar ul li.current a {
     text-decoration: none;
 }
 
+.aboutme-details {
+    text-align: left;
+}
 
 
 
 /* media queries*/
 
-@media(min-width: 641px) {
+@media(min-width: 700px) {
     body {
-        background: red;
+        /* background: red; */
+    }
+
+    section {
+        height: 100vh;
+    }
+
+    section .landing {
+        height: 85vh;
+    }
+
+    h2{
+       
+        
     }
 
     #landing {
@@ -167,9 +182,34 @@ nav ul li a:hover, #navbar ul li.current a {
         letter-spacing: 0.1em;
         /* padding: 10px; */
     }
+
+    .sticky {
+        height: auto;
+    }
+
+    #aboutme .container .section-content{
+        display: grid;
+        grid-template-columns: 25vw 70vw;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .aboutme-details .aboutme-interests {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 16px;
+    }
+
+    .aboutme-details .aboutme-interests .interests {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 16px;
+        justify-items: center;
+        align-items: center;
+    }
 }
-/* 
-@media(min-width: 1025px) {
+
+/* @media(min-width: 1025px) {
     body {
         display: none;
     }
