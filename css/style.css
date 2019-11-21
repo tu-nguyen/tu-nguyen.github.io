@@ -113,7 +113,7 @@ nav ul li a:hover, #navbar ul li.current a {
 /* about me */
 #aboutme .container {
     display: grid;
-    grid-template-rows: 10vh 15vh auto;
+    grid-template-rows: 15vh 15vh auto;
     justify-items: center;
     align-items: center;
 }
@@ -191,6 +191,13 @@ nav ul li a:hover, #navbar ul li.current a {
 
     .sticky {
         height: auto;
+    }
+
+    #aboutme .container {
+        display: grid;
+        grid-template-rows: 10vh 15vh auto;
+        justify-items: center;
+        align-items: center;
     }
 
     #aboutme .container .section-content{
