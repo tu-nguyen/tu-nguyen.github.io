@@ -134,6 +134,8 @@ nav ul li a:hover, #navbar ul li.current a {
 
 .aboutme-details {
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
