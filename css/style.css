@@ -215,11 +215,24 @@ nav ul li a:hover, #navbar ul li.current a {
 
     .aboutme-details .aboutme-interests .interests {
         display: grid;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto;
         grid-gap: 16px;
-        justify-items: center;
-        align-items: center;
+        padding: 0 10px;
+        background: blue;
+        align-items: left;
     }
+
+    .interests h5 {
+        height: auto;
+        background: yellow;
+    }
+
+    .interests p {
+
+        background: green;
+    }
+
+
 }
 
 /* @media(min-width: 1025px) {
