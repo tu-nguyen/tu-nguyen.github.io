@@ -68,7 +68,7 @@ h2 {
 /* landing */
 #landing {
     display: grid;
-    grid-template-rows: 85vh 15vh;
+    grid-template-rows: 85vh auto;
 }
 
 .info {
@@ -82,6 +82,7 @@ h2 {
 nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    height: 15vh;
 }
 nav ul{
     list-style: none;
@@ -107,7 +108,7 @@ nav ul li a:hover, #navbar ul li.current a {
     top: 0;
     width: 100%;
     background-color: #333;
-    height: 15vh;
+    height: 10vh;
 }
 
 /* about me */
