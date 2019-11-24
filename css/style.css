@@ -44,6 +44,10 @@ p {
     padding: 1em 0;
 }
 
+.section {
+    height: 100vh;
+}
+
 .section-title {
     text-align: center;
     display: flex;
@@ -139,7 +143,44 @@ nav ul li a:hover, #navbar ul li.current a {
     padding-right: 10px;
 }
 
+/* skills */
+#skills .container {
+    display: grid;
+    grid-template-rows: 15vh 15vh auto;
+    justify-items: center;
+    align-items: center;
+}
 
+/* experience */
+#experience .container {
+    display: grid;
+    grid-template-rows: 15vh auto;
+    justify-items: center;
+    align-items: center;
+}
+
+/* education */
+#education .container{
+    display: grid;
+    grid-template-rows: 15vh 25vh 25vh;
+    grid-row-gap: 10px;;
+}
+
+projects
+#projects {
+    display: grid;
+    grid-template-rows: 15vh 15vh auto;
+    justify-items: center;
+    align-items: center;
+}
+
+/* contact */
+#contact .container {
+    display: grid;
+    grid-template-rows: 15vh 15vh auto;
+    justify-items: center;
+    align-items: center;
+}
 
 /* media queries*/
 
