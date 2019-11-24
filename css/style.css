@@ -209,28 +209,41 @@ nav ul li a:hover, #navbar ul li.current a {
     }
 
     .aboutme-details .aboutme-interests {
+        padding-top: 20px;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 16px;
     }
 
-    .aboutme-details .aboutme-interests .interests {
+    .aboutme-details .aboutme-interests {
         display: grid;
-        grid-template-rows: auto;
-        grid-gap: 16px;
-        padding: 0 10px;
-        background: blue;
+        grid-template-areas: "ih1 ih2 ih3"
+                            "ip1 ip2 ip3";
         align-items: left;
     }
 
-    .interests h5 {
-        height: auto;
-        background: yellow;
+    .aboutme-interests .interest-header1{
+        grid-area: ih1;
     }
 
-    .interests p {
+    .aboutme-interests .interest-p1{
+        grid-area: ip1;
+    }
 
-        background: green;
+    .aboutme-interests .interest-header2{
+        grid-area: ih2;
+    }
+
+    .aboutme-interests .interest-p2{
+        grid-area: ip2;
+    }
+
+    .aboutme-interests .interest-header3{
+        grid-area: ih3;
+    }
+
+    .aboutme-interests .interest-p3{
+        grid-area: ip3;
     }
 
 
