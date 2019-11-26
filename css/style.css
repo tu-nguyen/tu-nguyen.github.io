@@ -160,14 +160,21 @@ nav ul li a:hover, #navbar ul li.current a {
 }
 
 #experience .container .section-content {
-    background: blue;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#experience .container .section-content .job-description {
+    padding-left: 15px;
 }
 
 /* education */
 #education .container{
     display: grid;
     grid-template-rows: 15vh 25vh 25vh;
-    grid-row-gap: 10px;;
+    grid-row-gap: 10px;
 }
 
 projects
