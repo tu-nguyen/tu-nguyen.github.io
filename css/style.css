@@ -154,9 +154,13 @@ nav ul li a:hover, #navbar ul li.current a {
 /* experience */
 #experience .container {
     display: grid;
-    grid-template-rows: 15vh auto;
+    grid-template-rows: 15vh 15vh auto;
     justify-items: center;
     align-items: center;
+}
+
+#experience .container .section-content {
+    background: blue;
 }
 
 /* education */
