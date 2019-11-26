@@ -248,7 +248,7 @@ projects
 
     #aboutme .container {
         display: grid;
-        grid-template-rows: 10vh 15vh auto;
+        grid-template-rows: 40px 15vh auto;
         justify-items: center;
         align-items: center;
     }
