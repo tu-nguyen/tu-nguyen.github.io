@@ -43,26 +43,35 @@ nav ul{
     grid-template-columns: auto auto auto;
 }
 
-nav ul li a {
+nav ul li a{
     display: block;
     text-decoration: none;
-}
+} 
 
-nav ul li a:hover, #navbar ul li.current a { 
+/* Will fix below animation on navbar later */
+
+nav ul li a:hover, nav ul li.current a { 
     animation: dot 0.5s ease-in-out infinite alternate;
+    color: green;
  }
 
- #nav-sticky-wrapper.is-sticky #navbar {
-	background-color: white;
+ @keyframes dot {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
-    height: 10vh;
-}
+    background-color: white;
+    height: auto;
+} 
 
 /* landing */
 /* about me */
