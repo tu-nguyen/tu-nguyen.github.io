@@ -1,0 +1,73 @@
+/* core styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+	padding: 1em 0;;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+/* navbar */
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    height: 15vh;
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover, #navbar ul li.current a { 
+    animation: dot 0.5s ease-in-out infinite alternate;
+ }
+
+ #nav-sticky-wrapper.is-sticky #navbar {
+	background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    height: 10vh;
+}
+
+/* landing */
+/* about me */
+/* skills */
+/* experience */
+/* portfolio */
+/* contact */
+/* footer */
