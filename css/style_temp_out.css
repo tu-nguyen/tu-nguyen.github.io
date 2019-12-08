@@ -72,7 +72,7 @@ h2 {
 /* landing */
 #landing {
     display: grid;
-    grid-template-rows: 85vh auto;
+    grid-template-rows: auto auto;
 }
 
 .info {

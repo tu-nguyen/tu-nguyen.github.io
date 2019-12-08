@@ -31,11 +31,15 @@ p {
     padding: 1em 0;
 }
 
+.container {
+    padding-top: 100px;
+}
+
 /* navbar */
 nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    height: 15vh;
+    height: auto;
 }
 nav ul{
     list-style: none;
@@ -68,13 +72,36 @@ nav ul li a:hover, nav ul li.current a {
 .sticky {
     position: fixed;
     top: 0;
+    bottom: auto;
     width: 100%;
     background-color: white;
     height: auto;
 } 
 
 /* landing */
+#landing {
+    height:100vh;
+    display: grid;
+    grid-template-rows: 90vh auto;
+} 
+
+.container-landing {
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+
 /* about me */
+#aboutme .links ul {
+    list-style: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    padding: 15px 0 0;
+}
+
 /* skills */
 /* experience */
 /* portfolio */
