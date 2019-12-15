@@ -116,7 +116,18 @@ nav ul li a:hover, nav ul li.current a {
     padding-left: 10px;
 }
 
-/* portfolio */
+/* projects */
+#projects .section-content ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#projects .section-content ul li a{
+    display: block;
+    text-decoration: none;
+} 
+
 /* contact */
 /* footer */
 
