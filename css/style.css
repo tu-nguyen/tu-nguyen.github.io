@@ -121,6 +121,7 @@ nav ul li a:hover, nav ul li.current a {
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    text-transform: capitalize;
 }
 
 #projects .section-content ul li a{
