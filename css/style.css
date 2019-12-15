@@ -21,6 +21,10 @@ img {
     padding-top: 10px;
 }
 
+.section-title {
+    text-transform: uppercase;
+}
+
 h1, h2, h3, h4, h5 {
     margin: 0;
 	padding: 1em 0;;
