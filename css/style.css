@@ -124,10 +124,33 @@ nav ul li a:hover, nav ul li.current a {
     text-transform: capitalize;
 }
 
-#projects .section-content ul li a{
-    display: block;
-    text-decoration: none;
+#projects .section-content .filters {
+    padding-bottom: 25px;
 } 
+
+#projects .section-content .filters ul{
+    text-decoration: none;
+    display: block;
+}
+
+.projects-gallery {
+    display: grid;
+    grid-gap: 0.6rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects-gallery .item img {
+    padding: 0;
+    width: 100%;
+    border: 2px #fff solid;
+}
+
+
+.projects-gallery .item a{
+    text-decoration: none;
+    color: #fff;
+    /* background-color: white; */
+}
 
 /* contact */
 /* footer */
