@@ -71,7 +71,8 @@ nav ul li a:hover, nav ul li.current a {
     }
 
     100% {
-        transform: scale(1.1);
+        transform: scale(1);
+        color: green;
     }
 }
 
@@ -168,4 +169,22 @@ nav ul li a:hover, nav ul li.current a {
 
 
 /* media queries*/
-/* @media(min-width: 700px) {} */
+@media(min-width: 700px) {
+
+    nav {
+        padding: 15px 0;
+    }
+    /* navbar */
+    nav ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto; 
+    }
+
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+        font-size: 1.1em;;
+    } 
+
+}
