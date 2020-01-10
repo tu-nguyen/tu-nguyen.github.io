@@ -56,6 +56,7 @@ nav ul{
 nav ul li a{
     display: block;
     text-decoration: none;
+    color: white;
 } 
 
 /* Will fix below animation on navbar later */
@@ -82,8 +83,13 @@ nav ul li a:hover, nav ul li.current a {
     bottom: auto;
     width: 100%;
     background-color: white;
+    color: black;
     height: auto;
 } 
+
+.sticky a {
+    color: black;
+}
 
 /* landing */
 #landing {
@@ -180,11 +186,10 @@ nav ul li a:hover, nav ul li.current a {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto; 
     }
-
     nav ul li a{
         display: block;
         text-decoration: none;
-        font-size: 1.1em;;
+        font-size: 1.1em;
     } 
 
 }
