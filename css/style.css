@@ -176,11 +176,11 @@ nav ul li a:hover, nav ul li.current a {
 
 /* media queries*/
 @media(min-width: 700px) {
-
+    
+    /* navbar */
     nav {
         padding: 15px 0;
     }
-    /* navbar */
     nav ul{
         list-style: none;
         display: grid;
@@ -192,4 +192,9 @@ nav ul li a:hover, nav ul li.current a {
         font-size: 1.1em;
     } 
 
+    /* about me*/
+    /* #aboutme .container {
+        display: grid;
+        grid-template-areas: ;
+    } */
 }
