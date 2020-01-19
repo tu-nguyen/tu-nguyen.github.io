@@ -47,13 +47,13 @@ nav {
     position: sticky;
     height: auto;
 }
-nav ul{
+nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
     text-decoration: none;
     color: white;
@@ -124,7 +124,7 @@ nav ul li a:hover, nav ul li.current a {
 }
 
 /* projects */
-#projects .section-content ul{
+#projects .section-content ul {
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -135,7 +135,7 @@ nav ul li a:hover, nav ul li.current a {
     padding-bottom: 25px;
 } 
 
-#projects .section-content .filters ul{
+#projects .section-content .filters ul {
     text-decoration: none;
     display: block;
 }
@@ -153,7 +153,7 @@ nav ul li a:hover, nav ul li.current a {
 }
 
 
-.projects-gallery .item a{
+.projects-gallery .item a {
     text-decoration: none;
     color: #fff;
     /* background-color: white; */
@@ -162,12 +162,12 @@ nav ul li a:hover, nav ul li.current a {
 /* contact */
 
 /* footer */
-#footer .container{
+#footer .container {
     padding: 0;
     margin-top: 15em;
 }
 
-#footer .container p{
+#footer .container p {
     width: 100%;
     background-color: white;
     color: black;
@@ -181,12 +181,12 @@ nav ul li a:hover, nav ul li.current a {
     nav {
         padding: 15px 0;
     }
-    nav ul{
+    nav ul {
         list-style: none;
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto; 
     }
-    nav ul li a{
+    nav ul li a {
         display: block;
         text-decoration: none;
         font-size: 1.1em;
@@ -203,16 +203,22 @@ nav ul li a:hover, nav ul li.current a {
         grid-area: hero;
     }
 
-    #aboutme .section-content .col-2-3{
+    #aboutme .section-content .col-1-3 .links .fa{
+        font-size: 1.4em;
+        padding-top: 20px;
+        padding-right: 20px;;
+    }
+
+    #aboutme .section-content .col-2-3 {
         grid-area: about;
     }
 
-    #aboutme .section-content .col-3-3{
+    #aboutme .section-content .col-3-3 {
         grid-area: detail;
-        
+        padding-top: 10px;
     }
 
-    #aboutme .section-content .col-3-3 .row{
+    #aboutme .section-content .col-3-3 .row {
         display: grid;
         grid-template-columns: auto auto auto;
     }
