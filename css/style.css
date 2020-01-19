@@ -195,8 +195,8 @@ nav ul li a:hover, nav ul li.current a {
     /* about me*/
     #aboutme .section-content {
         display: grid;
-        grid-template-areas: "hero  about about"
-                             "detail detail detail";
+        grid-template-areas: "hero  hero about about"
+                             "detail detail detail detail";
     }
 
     #aboutme .section-content .hero {
