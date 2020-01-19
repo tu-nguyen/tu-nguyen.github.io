@@ -193,8 +193,29 @@ nav ul li a:hover, nav ul li.current a {
     } 
 
     /* about me*/
-    /* #aboutme .container {
+    #aboutme .section-content {
         display: grid;
-        grid-template-areas: ;
-    } */
+        grid-template-areas: "hero  about about"
+                             "detail detail detail";
+    }
+
+    #aboutme .section-content .hero {
+        grid-area: hero;
+    }
+
+    #aboutme .section-content .col-2-3{
+        grid-area: about;
+    }
+
+    #aboutme .section-content .col-3-3{
+        grid-area: detail;
+        
+    }
+
+    #aboutme .section-content .col-3-3 .row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    
 }
