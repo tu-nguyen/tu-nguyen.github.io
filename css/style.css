@@ -234,4 +234,9 @@ nav ul li a:hover, nav ul li.current a {
     #experience .section-content .job-desc ul {
     text-align: center;
     padding-left: 10px;
+    }
+}
+
+@media(min-width: 1824px) {
+
 }
