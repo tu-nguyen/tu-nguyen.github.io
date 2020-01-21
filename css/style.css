@@ -174,7 +174,7 @@ nav ul li a:hover, nav ul li.current a {
 }
 
 
-/* media queries*/
+/* media queries */
 @media(min-width: 700px) {
     
     /* navbar */
@@ -192,7 +192,7 @@ nav ul li a:hover, nav ul li.current a {
         font-size: 1.1em;
     } 
 
-    /* about me*/
+    /* about me */
     #aboutme .section-content {
         display: grid;
         grid-template-areas: "hero  hero about about"
@@ -223,5 +223,15 @@ nav ul li a:hover, nav ul li.current a {
         grid-template-columns: auto auto auto;
     }
 
-    
+    /* skills */
+    #skills .container .skills-list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-bottom: 20px;
+    }
+
+    /* experience */
+    #experience .section-content .job-desc ul {
+    text-align: center;
+    padding-left: 10px;
 }
