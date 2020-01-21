@@ -235,8 +235,24 @@ nav ul li a:hover, nav ul li.current a {
     text-align: center;
     padding-left: 10px;
     }
+
+    /* projects */
+    .projects-gallery {
+        display: grid;
+        grid-gap: 0.6rem;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+    }
+    
+
 }
 
 @media(min-width: 1824px) {
-
+    /* projects */
+    .projects-gallery {
+        display: grid;
+        grid-gap: 0.6rem;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 40px;
+    }
 }
