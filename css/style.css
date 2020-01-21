@@ -248,6 +248,19 @@ nav ul li a:hover, nav ul li.current a {
 }
 
 @media(min-width: 1824px) {
+
+    /* about me */
+    #aboutme .section-content {
+        display: grid;
+        grid-template-areas: "hero about detail";
+    }
+
+    #aboutme .section-content .col-3-3 .row {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:  auto auto auto;
+    }
+
     /* projects */
     .projects-gallery {
         display: grid;
@@ -255,4 +268,6 @@ nav ul li a:hover, nav ul li.current a {
         grid-template-columns: repeat(4, 1fr);
         padding: 40px;
     }
+
+
 }
