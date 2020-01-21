@@ -255,6 +255,10 @@ nav ul li a:hover, nav ul li.current a {
         grid-template-areas: "hero about detail";
     }
 
+    #aboutme .section-content .col-2-3 {
+        padding: 8em;
+    }
+
     #aboutme .section-content .col-3-3 .row {
         display: grid;
         grid-template-columns: auto;
