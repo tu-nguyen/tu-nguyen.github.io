@@ -176,6 +176,11 @@ nav ul li a:hover, nav ul li.current a {
 
 /* media queries */
 @media(min-width: 700px) {
+
+    /* landing */
+    #landing {
+        grid-template-rows: 93vh auto;
+    } 
     
     /* navbar */
     nav {
@@ -252,6 +257,9 @@ nav ul li a:hover, nav ul li.current a {
         padding-left: 10em;
         padding-right: 10em;
     }
+
+
+
 
     /* about me */
     #aboutme .section-content {
