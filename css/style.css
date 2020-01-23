@@ -248,11 +248,16 @@ nav ul li a:hover, nav ul li.current a {
 }
 
 @media(min-width: 1824px) {
+    .section-content {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
 
     /* about me */
     #aboutme .section-content {
         display: grid;
         grid-template-areas: "hero about detail";
+
     }
 
     #aboutme .section-content .col-2-3 {
