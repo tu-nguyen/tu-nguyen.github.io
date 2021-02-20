@@ -178,6 +178,7 @@ html, body, section{
 .footer{
     padding-top: 15rem;
     bottom: 0;
+    background: #333;
 }
 
 .footer .container {
@@ -188,3 +189,4 @@ html, body, section{
 .footer .container p {
     width: 100%;
 }
+
