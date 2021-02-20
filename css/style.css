@@ -1,0 +1,167 @@
+
+/* imports fonts from fronts.css file*/
+@import url(./fonts.css);
+
+/* css variable*/
+@import url(./partials/_global.css);
+
+/* import global variable*/
+@import url(./partials/_variables.css);
+
+
+/* landing */
+.landing{
+    background: black;
+    height:100vh;
+    display: grid;
+    grid-template-rows: 95vh auto;
+}
+
+/* navbar */
+.navbar {
+    background-color: black;
+    bottom: 0;
+}
+
+.navbar .resume{
+    padding-left:2.5rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    background-color: black;
+    color: black;
+    height: auto;
+} 
+
+.sticky a {
+    color: white;
+}
+
+/* about */
+.about{
+    height: 60rem;
+}
+
+.about .container .profile-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.about .container h4 > span{
+    display: block;
+    color:red;
+}
+
+.about .container .paragraph > p{
+    padding: .4rem 0;
+}
+
+.about .row .links{
+    padding-top: 40px;
+    bottom: 0;
+}
+
+.about .row .links ul{
+    list-style: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    padding: 10rem 0 0;
+    grid-gap: 5rem;
+}
+
+.about .row .links a > i{
+    font-size:22px;
+    color:var(--border-color);
+}
+
+.about .row .links a:hover > i{
+    font-size:22px;
+    color: var(--primary-color);
+}
+
+/* skills */
+.skills{
+    background: black;
+    height: auto;
+}
+
+.skills > ul{
+    list-style-type:none;
+}
+
+.skills-bottom{
+    padding-top: 8rem;
+}
+
+/* projects */
+.projects {
+    height: auto;
+}
+
+.projects .button-group{
+    padding: 2rem 2rem 5rem 2rem;
+}
+
+.projects .button-group button{
+    color: white;
+    background:transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.projects .button-group button + button{
+    padding-left: 3rem;
+}
+
+.projects .projects-gallery .our-project > .title h4{
+    font: normal 700 225px/12px var(--roboto);
+}
+
+.projects .projects-gallery .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* education */
+.education{
+    background: black;
+    height: auto;
+}
+
+.education p{
+    padding-bottom: 10rem;
+}
+
+/* contact */
+.contact{
+    height: auto;
+}
+
+.contact .email{
+    padding-bottom: 15rem;
+}
+
+/* footer */
+.footer{
+    padding-top: 15rem;
+    bottom: 0;
+}
+
+.footer .container {
+    padding: 0;
+    margin-top: 15em;
+}
+
+.footer .container p {
+    width: 100%;
+    background-color: white;
+    color: black;
+}
