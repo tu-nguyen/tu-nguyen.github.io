@@ -25,6 +25,10 @@ html, body, section{
     padding-top:10%;
 }
 
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited .btn-outline-danger{
+    background-color: #8064A2 !important;
+} */
+
 /* landing */
 .landing{
     background: black;
@@ -76,7 +80,7 @@ html, body, section{
 
 .about .container h4 > span{
     display: block;
-    color:red;
+    /* color:red; */
 }
 
 .about .container .paragraph > p{
@@ -124,7 +128,7 @@ html, body, section{
 
 .about  .row .links a > i{
     font-size:32px;
-    color:var(--border-color);
+    color:white;
 }
 
 .about .row .links a:hover > i{
