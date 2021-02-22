@@ -109,12 +109,21 @@ html, body, section{
     height: auto;
 }
 
-.skills > ul{
+.skills .skills-container .skill-title{
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.skills .skills-container > ul{
     list-style-type:none;
+    width: 70%;
+    margin: auto;
+    text-align:center;
 }
 
 .skills-bottom{
-    padding-top: 8rem;
+    padding-top: 10rem;
 }
 
 /* projects */
