@@ -28,9 +28,9 @@ html, body, section{
 /* landing */
 .landing{
     background: black;
-    height:100vh;
+    /* height:95vh; */
     display: grid;
-    grid-template-rows: 95vh auto;
+    grid-template-rows: 100vh auto;
 }
 
 /* navbar */

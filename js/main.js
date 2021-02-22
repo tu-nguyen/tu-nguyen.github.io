@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+    // create consistant space for landing and navbar
+    $(function() {
+
+      var navbarHeight = document.getElementById("navbar").height();
+      var landingHeight = document.getElementById("landing").height();
+
+      $(".landing").css("height", (landingHeight - navbarHeight) + 'px')
+    });
+
     let $btns = $('.projects .button-group button');
 
     $btns.click(function(e){
@@ -32,4 +41,7 @@ $(document).ready(function(){
         navbar.classList.remove("sticky");
       }
     }
+
+
+
 });
