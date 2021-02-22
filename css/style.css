@@ -22,7 +22,7 @@ html, body, section{
 }
 
 .adj {
-    padding-top:10%;
+    padding-top:15%;
 }
 
 /* landing */
@@ -139,10 +139,6 @@ html, body, section{
     text-transform: uppercase;
     padding: 1rem 2rem 5rem 2rem;
 }
-/* 
-.projects .button-group button + button{
-    padding-left: 3rem;
-} */
 
 .projects .projects-gallery .our-project > .title h4{
     font: normal 700 225px/12px var(--roboto);
@@ -167,9 +163,10 @@ html, body, section{
     height: auto;
 }
 
-.education p{
-    padding-bottom: 10rem;
+.education .container .section-content{
+    padding: 5rem 0;
 }
+
 
 /* contact */
 .contact{
