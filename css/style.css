@@ -22,7 +22,7 @@ html, body, section{
 }
 
 .adj {
-    padding-top:15%;
+    padding-top:10%;
 }
 
 /* landing */
@@ -59,7 +59,11 @@ html, body, section{
 
 /* about */
 .about{
-    height: 60rem;
+    position: relative;
+    height: 65rem;
+    width: 100%;
+    /* margin: 0; */
+    padding-top: 3rem;
 }
 
 .about .container .profile-image img{
@@ -76,50 +80,87 @@ html, body, section{
 }
 
 .about .container .paragraph > p{
-    padding: .4rem 0;
+    padding: .5rem 0;
 }
 
-.about .row .links{
-    padding-top: 40px;
-    bottom: 0;
+.about .container{
+    /* position: absolute; */
+    
+    width: 100%;
 }
+
+.about .links-container{
+    /* position: absolute; */
+    padding-top: 10rem;
+    bottom: 0;
+
+    /* margin: auto; */
+    /* width: 50%; */
+}
+
+.about .links-container .links{
+    display: flex;
+    justify-content: space-between;
+} 
 
 .about .row .links ul{
     list-style: none;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-    padding: 10rem 0 0;
-    grid-gap: 5rem;
+    display: table; 
+    table-layout: fixed;
+    width: 100%;
 }
 
-.about .row .links a > i{
-    font-size:22px;
+.about .row .links ul li{
+    display: table-cell; 
+}
+/* 
+
+.about .row .links ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+} */
+
+.about  .row .links a > i{
+    font-size:32px;
     color:var(--border-color);
 }
 
 .about .row .links a:hover > i{
-    font-size:22px;
+    font-size:32px;
     color: var(--primary-color);
 }
 
 /* skills */
 .skills{
+    height: auto;
     background: black;
+}
+
+.skills .skills-container{
     height: auto;
 }
 
-.skills .skills-container .skill-title{
-    margin: 0 auto;
+.skills .skills-container .skills-list{
     display: block;
-    
 }
 
-.skills .skills-container > ul{
+.skills .skills-container .skill-title{
+    margin: 0;
+    padding: 0;
+}
+
+.skills .skills-container .skills-list > ul{
     list-style-type:none;
-    width: 70%;
-    margin: auto;
     text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .skills-container .skills-list ul > li{
+    text-align:center;
+
 }
 
 .skills-bottom{
