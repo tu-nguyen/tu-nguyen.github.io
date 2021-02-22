@@ -131,21 +131,18 @@ html, body, section{
     height: auto;
 }
 
-.projects .button-group{
-    padding: 2rem 2rem 5rem 2rem;
-}
-
 .projects .button-group button{
     color: white;
     background:transparent;
     border: none;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
+    padding: 1rem 2rem 5rem 2rem;
 }
-
+/* 
 .projects .button-group button + button{
     padding-left: 3rem;
-}
+} */
 
 .projects .projects-gallery .our-project > .title h4{
     font: normal 700 225px/12px var(--roboto);
