@@ -80,7 +80,6 @@ html, body, section{
 
 .about .container h4 > span{
     display: block;
-    /* color:red; */
 }
 
 .about .container .paragraph > p{
@@ -88,18 +87,14 @@ html, body, section{
 }
 
 .about .container{
-    /* position: absolute; */
-    
+    position: relative;
     width: 100%;
 }
 
 .about .links-container{
-    /* position: absolute; */
+    position: absolute; 
     padding-top: 10rem;
     bottom: 0;
-
-    /* margin: auto; */
-    /* width: 50%; */
 }
 
 .about .links-container .links{
