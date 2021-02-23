@@ -202,6 +202,26 @@ html, body, section{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
+.projects .projects-gallery .our-project a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects-gallery .our-project a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects-gallery .our-project a:hover {
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.projects .projects-gallery .our-project a:active {
+    text-decoration: underline;
+    color: white;
+}
+
 /* education */
 .education{
     background: black;
