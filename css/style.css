@@ -188,8 +188,8 @@ html, body, section{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: auto;
+    width: 200px;
+    height: 130px;
     padding-top: 10px;
 }
 
