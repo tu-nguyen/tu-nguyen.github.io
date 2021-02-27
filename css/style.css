@@ -28,10 +28,10 @@ html, body {
 
 .container{
     padding-top: 10rem;
+    width: 80%;
 }
-
-h1{
-    padding-bottom: 5rem;
+h1 {
+    padding: .0 0 5rem;
 }
 
 /* landing */
@@ -117,21 +117,7 @@ h1{
 
 /* skills */
 .skills{
-    height: auto;
     background: black;
-}
-
-.skills .skills-container{
-    height: auto;
-}
-
-.skills .skills-container .skills-list{
-    display: block;
-}
-
-.skills .skills-container .skill-title{
-    margin: 0;
-    padding: 0;
 }
 
 .skills .skills-container .skills-list > ul{
@@ -141,12 +127,13 @@ h1{
     padding: 0;
 }
 
-.skills .skills-container .skills-list ul > li{
-    text-align:center;
+.skills .skills-container .skills-list .skill-title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .skills-bottom{
-    padding-top: 10rem;
+    padding-top: 4rem;
 }
 
 /* projects */
@@ -160,7 +147,7 @@ h1{
     border: none;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
-    padding: 1rem 2rem 5rem 2rem;
+    /* padding: 1rem 2rem 5rem 2rem; */
 }
 
 .projects .projects-gallery .our-project > .title h4{
@@ -205,9 +192,9 @@ h1{
     height: auto;
 }
 
-.education .container .section-content{
+/* .education .container .section-content{
     padding: 5rem 0;
-}
+} */
 
 /* contact */
 .contact{
@@ -220,7 +207,8 @@ h1{
 
 /* footer */
 footer{
-    background: black;
+    /* background: black; */
+    width: 100%;
 }
 
 .footer .container a:link {
