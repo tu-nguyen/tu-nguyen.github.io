@@ -14,7 +14,6 @@ html, body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 300;
     color: var(--bs-white);
     line-height: 30px;
     text-align: center;
@@ -56,7 +55,7 @@ h1 {
 }
 
 .navbar .resume{
-    padding-left:2.5rem;
+    padding: 3px 1rem 0 1rem;
 }
 
 .sticky {
@@ -141,17 +140,12 @@ h1 {
     height: auto;
 }
 
-.projects .button-group button{
+.projects .container .row .button-group button{
     color: white;
-    background:transparent;
+    background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
-    /* padding: 1rem 2rem 5rem 2rem; */
-}
-
-.projects .projects-gallery .our-project > .title h4{
-    font: normal 700 225px/12px var(--roboto);
+    padding: 0 3rem 4rem 3rem;
 }
 
 .projects .projects-gallery .our-project .img a img{
@@ -160,7 +154,7 @@ h1 {
     margin-right: auto;
     width: 200px;
     height: 130px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 .projects .projects-gallery .our-project .img a:hover img{
@@ -192,13 +186,24 @@ h1 {
     height: auto;
 }
 
-/* .education .container .section-content{
-    padding: 5rem 0;
-} */
-
 /* contact */
-.contact{
-    height: auto;
+.contact .container a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact .container a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.contact .container a:hover {
+    color: white;
+}
+
+.contact .container a:active {
+    text-decoration: underline;
+    color: white;
 }
 
 .contact .email{
@@ -207,13 +212,12 @@ h1 {
 
 /* footer */
 footer{
-    /* background: black; */
     width: 100%;
 }
 
 .footer .container a:link {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 .footer .container a:visited {

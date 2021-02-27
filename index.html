@@ -73,7 +73,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 px-3 mb-lg-0 w-100 justify-content-end">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-1 w-100 justify-content-end">
               <!-- <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">home</a>
               </li> -->
@@ -91,11 +91,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">contact</a>
                 </li>
-              </li>
+                <li class="nav-item resume">
+                  <a href="./Tu Nguyen Resume.pdf" class="btn btn-outline-light">resume</a>
+                </li>
             </ul>
-            <div class="d-flex resume">
-              <a href="./Tu Nguyen Resume.pdf" class="btn btn-outline-light">resume</a>
-            </div>
     </div>
   </nav>
   <!-- ========================= end navbar ========================= -->
@@ -153,7 +152,7 @@
         </div>
       </div>
 
-      <div class="row skills-container text-center">
+      <div class="row skills-container text-center pb-2">
           
         <div class="skills-list  col-lg-4 col-md-12 col-sm-12">
           <h5 class="skill-title">Front End</h5>
@@ -187,7 +186,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row pb-2">
         <div class="col-lg-12 text-center skills-bottom">
           <br>
           <p>Other: Excel, VBA, Apache</p>
@@ -201,20 +200,21 @@
   <!-- ========================= start projects ========================= -->
   <section id="projects" class="projects">
     <div class="container">
-      <div class="title-text text-center">
-        <h1 class="title-h1">Projects</h1>
+      <div class="row align-items-center">
+        <h1 class="title-text">Projects</h1>
+      </div>
+      <div class="row">
+        <div class="button-group text-center col-lg-12 col-md-12 col-sm-12">
+          <button type="button" class="active" data-filter="*">All</button>
+          <button type="button" data-filter=".python">Python</button>
+          <button type="button" data-filter=".javascript">Javascript</button>
+          <button type="button" data-filter=".java">Java</button>
+          <button type="button" data-filter=".upcoming">Upcoming</button>
+          <button type="button" data-filter=".other">Other</button>
+        </div>
       </div>
 
-      <div class="button-group text-center col-lg-12 col-md-12 col-sm-12">
-        <button type="button" class="active" data-filter="*">All</button>
-        <button type="button" data-filter=".python">Python</button>
-        <button type="button" data-filter=".javascript">Javascript</button>
-        <button type="button" data-filter=".java">Java</button>
-        <button type="button" data-filter=".upcoming">Upcoming</button>
-        <button type="button" data-filter=".other">Other</button>
-      </div>
-
-      <div class="row projects-gallery">
+      <div class="row projects-gallery pb-2">
         <div class="col-lg-4 col-md-6 col-sm-12 element-item javascript nodejs">
           <div class="our-project">
             <div class="img">
@@ -224,7 +224,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase"><a href="https://github.com/tu-nguyen/burrito-bot" target="_blank">Burrito Bot</a></h4>
+              <h5 class="text-uppercase"><a href="https://github.com/tu-nguyen/burrito-bot" target="_blank">Burrito Bot</a></h5>
               <span class="text-secondary">Javascript, Nodejs, API</span>
             </div>
           </div>
@@ -238,7 +238,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase"><a href="https://github.com/tu-nguyen/django-todolist" target="_blank">django-todo</a></h4>
+              <h5 class="text-uppercase"><a href="https://github.com/tu-nguyen/django-todolist" target="_blank">django-todo</a></h5>
               <span class="text-secondary">Python, Django</span>
             </div>
           </div>
@@ -252,7 +252,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase"><a href="https://github.com/tu-nguyen/multiWeather" target="_blank">multiWeather</a></h4>
+              <h5 class="text-uppercase"><a href="https://github.com/tu-nguyen/multiWeather" target="_blank">multiWeather</a></h5>
               <span class="text-secondary">Java, Android, API</span>
             </div>
           </div>
@@ -266,7 +266,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase"><a href="https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015" target="_blank">Bos-crime-EDA</a></h4>
+              <h5 class="text-uppercase"><a href="https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015" target="_blank">Bos-crime-EDA</a></h5>
               <span class="text-secondary">Python, Data Science</span>
             </div>
           </div>
@@ -280,7 +280,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase">django-magicmirror</h4>
+              <h5 class="text-uppercase">django-magicmirror</h5>
               <span class="text-secondary">Python, Django, API, Upcoming</span>
             </div>
           </div>
@@ -294,7 +294,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase"><a href="https://github.com/tu-nguyen/cs443-project" target="_blank">AccelerometerPlay</a></h4>
+              <h5 class="text-uppercase"><a href="https://github.com/tu-nguyen/cs443-project" target="_blank">AccelerometerPlay</a></h5>
               <span class="text-secondary">Java, Android</span>
             </div>
           </div>
@@ -308,7 +308,7 @@
               </a>
             </div>
             <div class="title py-4 text-center">
-              <h4 class="text-uppercase">django-comic</h4>
+              <h5 class="text-uppercase">django-comichost</h5>
               <span class="text-secondary">Python, Django, Upcoming</span>
             </div>
           </div>
@@ -324,16 +324,15 @@
       <div class="row text-center">
         <div class="col-12">
           <div class="title-text">
-            <h1 class="title-h1">Education</h1>
+            <h1 class="title">Education</h1>
           </div>
 
           <div class="section-content">
-              <h3 class="">University of Massachusetts Boston</h3>
-              <h4 class="">Bachelor of Science - Computer Science</h4>
-
-              <p class="para">Earned my B.S in their CS program, accredited by the Computing Accreditation Comiision of ABET, which assures the quality for degree programs in applied science, computing, engineering, and technology. Here I gained a strong understanding of the core fundamentals of CS including software design and development, data structures, algorithms, computer organization and computer architecture.</p>
-              <p class="para">As for my electives, I focused on System Administration and Data Engineering, including dealing with different operating systems and computer architectures, database management, and SQL</p>
-              <p class="para"><strong>Graduated</strong> Spring 2018</p>
+              <h2 class="">University of Massachusetts Boston</h2>
+              <h4 class="pb-5">Bachelor of Science - Computer Science</h4>
+              <p class="py-2">Earned my B.S in their CS program, accredited by the Computing Accreditation Comiision of ABET, which assures the quality for degree programs in applied science, computing, engineering, and technology. Here I gained a strong understanding of the core fundamentals of CS including software design and development, data structures, algorithms, computer organization and computer architecture.</p>
+              <p class="py-2">As for my electives, I focused on System Administration and Data Engineering, including dealing with different operating systems and computer architectures, database management, and SQL</p>
+              <p class="pt-5 pb-2 font-weight-bold"><strong>Graduated</strong> Spring 2018</p>
           </div>
         </div>
       </div>
@@ -345,13 +344,14 @@
   <section id="contact" class="contact">
     <div class="container">
       <div class="row text-center">
-        <div class="title-text">
-          <h1 class="title-h1">Contact me!</h1>
+        <div class="col-12">
+          <h1 class="title-text">Contact me!</h1>
         </div>
       </div>
 
       <div class="row">
-        <p class="text-center">Want to get in touch?<br><br>Send me an e-mail at tu.t.nguyen93@gmail.com and I will reply to you soon!</p>
+        <p class="text-center">Want to get in touch?</p><br>
+        <p>Send me an e-mail at <a href="mailto:tu.t.nguyen93@gmail.com">tu.t.nguyen93@gmail.com</a> and I will reply to you soon!</p>
       </div>
 
       <div class="row">
