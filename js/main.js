@@ -42,7 +42,4 @@ $(document).ready(function(){
         navbar.classList.remove("sticky");
       }
     }
-
-
-
 });

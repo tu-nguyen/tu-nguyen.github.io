@@ -1,4 +1,3 @@
-
 /* imports fonts from fronts.css file*/
 @import url(./fonts.css);
 
@@ -29,7 +28,9 @@ html, body {
     padding-top: 10rem;
     width: 80%;
 }
+
 h1 {
+    text-transform: uppercase;
     padding: .0 0 5rem;
 }
 
@@ -52,11 +53,25 @@ h1 {
 .navbar {
     background-color: black;
     bottom: 0;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
-.navbar .resume{
-    padding: 3px 1rem 0 1rem;
+.navbar .navbar-nav .resume{
+    font-size: 10px;
+    padding: 3px 1rem 3px 1rem;
 }
+
+/* .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-nav  > .active > a,
+.navbar-nav  > .active > a:hover,
+.navbar-nav  > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+} */
 
 .sticky {
     position: fixed;
@@ -111,7 +126,7 @@ h1 {
 
 .about .container .links a:hover > i{
     font-size:32px;
-    color: var(--primary-secondary);
+    text-shadow: 2px 2px 5px white;
 }
 
 /* skills */
@@ -146,6 +161,14 @@ h1 {
     border: none;
     text-transform: uppercase;
     padding: 0 3rem 4rem 3rem;
+}
+
+.projects .container .row .button-group .active{
+    font-weight: bold;
+}
+
+.projects .container .row .button-group button:hover{
+    text-shadow: 2px 2px 5px white;
 }
 
 .projects .projects-gallery .our-project .img a img{
