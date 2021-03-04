@@ -25,14 +25,22 @@ html, body {
 }  */
 
 .container{
-    padding-top: 10rem;
+    padding-top: 7.5rem;
     width: 80%;
 }
 
 h1 {
     text-transform: uppercase;
-    padding: .0 0 5rem;
+    padding: 0 0 1.5rem;
 }
+
+.hr {
+    display: block;
+    flex: 1;
+    margin: 0 20% 4rem;
+    height: 1px;
+    background: white;
+  }
 
 /* landing */
 .landing{
@@ -155,17 +163,26 @@ h1 {
     height: auto;
 }
 
+.projects .container .row .button-group{
+
+}
+
 .projects .container .row .button-group button{
     color: white;
     background: transparent;
     border: none;
     text-transform: uppercase;
-    padding: 0 3rem 4rem 3rem;
+    margin: 0 3rem 4rem 3rem;
 }
 
-.projects .container .row .button-group .active{
+.projects .container .row .button-group .active {
     font-weight: bold;
+    /* background: black;
+    border-radius: 15px 50px 30px; */
+    /* text-decoration: underline; */
 }
+
+
 
 .projects .container .row .button-group button:hover{
     text-shadow: 2px 2px 5px white;
@@ -199,7 +216,6 @@ h1 {
 }
 
 .projects .projects-gallery .our-project a:active {
-    text-decoration: underline;
     color: white;
 }
 
@@ -221,12 +237,20 @@ h1 {
 }
 
 .contact .container a:hover {
+    text-decoration: none;
     color: white;
 }
 
-.contact .container a:active {
-    text-decoration: underline;
+.contact .container .email a:link {
+    text-transform: capitalize;
     color: white;
+    /* background: black; */
+}
+
+.contact .container .email a:hover {
+    text-decoration: none;
+    color: black;
+    background: white;
 }
 
 .contact .email{
