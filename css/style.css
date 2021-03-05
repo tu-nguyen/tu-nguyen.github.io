@@ -42,6 +42,10 @@ h1 {
     background: white;
   }
 
+  em.seo, strong.seo {
+      font-weight: normal;
+  }
+
 /* landing */
 .landing{
     background: black;
