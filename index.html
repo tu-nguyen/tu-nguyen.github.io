@@ -54,44 +54,49 @@
 
   <!-- ========================= start landing ========================= -->
   <section id="landing" class="landing">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-center align-items-center vh-100">
-        <div class="col">
-          <h1 class="">Tu Nguyen</h1>
-          <h3 class=""><strong class="seo">Software Engineer</strong></h3>
-          <!-- <h4 class=""><strong class="seo">Portfolio</strong> still under construction...</h4> -->
-        </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+        <h1 class="hero_title">Tu Nguyen</h1>
+        <h3 class="hero_desc"><strong class="seo">Software Engineer</strong></h3>
+        <!-- <h4 class=""><strong class="seo">Portfolio</strong> still under construction...</h4> -->
+      </div>
       </div>
     </div>
   </section>
   <!-- ========================= end landing ========================= -->
 
   <!-- ========================= start navbar ========================= -->
-  <nav id="navbar" class="sticky-top navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top navbarScroll">
+    <div class="container">
       <a class="navbar-brand px-3" href="#">Tu</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto my-2 my-lg-1 w-100 justify-content-end">
+        <ul class="navbar-nav ms-auto">
+        <!-- <ul class="navbar-nav me-auto my-2 my-lg-1 w-100 justify-content-end"> -->
+          <li class="nav-item">
+            <a class="nav-link active" href="#">home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">about</a>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">contact</a>
-            </li>
-            <li class="nav-item resume">
-              <a href="./Tu Nguyen Resume.pdf" class="btn btn-outline-light">resume</a>
-            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+          <li class="nav-item resume">
+            <a href="./Tu Nguyen Resume.pdf" class="btn btn-outline-light">resume</a>
+          </li>
         </ul>
     </div>
   </nav>
@@ -99,30 +104,35 @@
 
   <!-- ========================= start about ========================= -->
   <section id="about" class="about">
-    <div class="container">
+    <div class="container mt-4 pt-4">
+      <h1 class="title">About me</h1>
+      <span class="hr"></span>
+      
       <div class="row">
-        <div class="col-12 align-content-center">
-          <h1 class="title">About me</h1>
-          <span class="hr"></span>
+        <div class="col">
+          <img src="./img/profile.jpg" alt="profile-img" class="img-fluid" style="border-radius: 50%;">  
         </div>
-      </div>
-      <div class="row py-5">
-        <div class="col-lg-6 col-md-12 col-sm-12 profile-image pb-5">
-          <img src="./img/profile.jpg" alt="profile-img" class="img-fluid" style="border-radius: 50%;">          
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <h4 class="pb-3"><span>Hello, World!</span></h4>
-            <p class="pt-2">
+
+        <div class="col">
+          <h4><span>Hello, World!</span></h4>
+          <div class="row">
+            <p>
               I'm a <strong class="seo">software engineer</strong> with heavy interest in <strong class="seo">big data</strong>, based in <strong class="seo">Boston</strong>, MA. I like building and learning software. From websites, applications, data pipelines, scripts and more. My goal is to never stop learning and improving in everything I do and create.
             </p>
-            <p class="">
+          </div>
+
+          <div class="row">
+            <p>
               Outside of coding I enjoy playing Go, and fitness and health, and procrastinating on learning the piano.
             </p>
+          </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="links">
-          <ul>
+        <div class="col">
+          <div class="links">
+            <ul>
               <li>
                 <a href="mailto:tu.t.nguyen93@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
               </li>
@@ -132,27 +142,31 @@
               <li>
                 <a href="https://www.linkedin.com/in/tu-nguyen/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
+
     </div>
   </section>
   <!-- ========================= end about ========================= -->
 
   <!-- ========================= start skills ========================= -->
-  <section id="skills" class="skills d-flex align-items-center justify-content-center">
-    <div class="container">
+  <section id="skills">
+    <div class="container mt-4 pt-4">
+      <h1 class="title">Skills</h1>
+      <span class="hr"></span>
       <div class="row">
+
         <div class="col-lg-12 text-center">
-          <h1 class="title-text">Skills</h1>
-          <span class="hr"></span>
-          <p class="para">
+          <p>
             During college I've only ever stuck with the back-end (C, C++, Java, etc), but since then I've picked up a few things for front-end/full stack developement. I've been learning various languages and tools, even way back when LAMP stack was the main to go. My main focus right now is <strong class="seo">Python</strong> and <strong class="seo">Django</strong> but I'm open to anything!
-        </p>
+          </p>
         </div>
+
       </div>
 
-      <div class="row skills-container text-center pb-2">
+      <div class="row skills-container">
         <div class="skills-list  col-lg-4 col-md-12 col-sm-12">
           <h5 class="skill-title">Front End</h5>
           <ul>
@@ -162,7 +176,7 @@
             <li>Learning <strong class="seo">React</strong> and <strong class="seo">Electron</strong></li>
           </ul>
         </div>
-      
+
         <div class="skills-list col-lg-4 col-md-12 col-sm-12">
           <h5 class="skill-title">Back End / DB</h5>
           <ul>
@@ -173,7 +187,7 @@
             <li><strong class="seo">REST</strong> / <strong class="seo">API</strong></li>
           </ul>
         </div>
-      
+
         <div class="skills-list col-lg-4 col-md-12 col-sm-12">
           <h5 class="skill-title">Tools</h5>
           <ul>
@@ -185,24 +199,24 @@
         </div>
       </div>
 
-      <div class="row pb-2">
+      <div class="row">
         <div class="col-lg-12 text-center skills-bottom">
           <br>
           <p>Other: Excel, VBA, Apache</p>
           <p>Currently Out of Practice: Java, C/C++, PHP</p>
         </div>
       </div>
+      
     </div>
   </section>
   <!-- ========================= end skills ========================= -->
 
   <!-- ========================= start projects ========================= -->
   <section id="projects" class="projects">
-    <div class="container">
-      <div class="row align-items-center">
-        <h1 class="title-text">Projects</h1>
-        <span class="hr"></span>
-      </div>
+    <div class="container mt-4 pt-4">
+      <h1 class="title-text">Projects</h1>
+      <span class="hr"></span>
+
       <div class="row">
         <div class="button-group text-center col-lg-12 col-md-12 col-sm-12">
           <button type="button" class="active" data-filter="*">All</button>
@@ -334,13 +348,11 @@
   <!-- ========================= start education ========================= -->
   <section id="education" class="education">
     <div class="container">
+      <h1 class="title">Education</h1>
+      <span class="hr"></span>
+
       <div class="row text-center">
         <div class="col-12">
-          <div class="title-text">
-            <h1 class="title">Education</h1>
-            <span class="hr"></span>
-          </div>
-
           <div class="section-content">
               <h2 class="">University of Massachusetts Boston</h2>
               <h4 class="pb-5">Bachelor of Science - <strong class="seo">Computer Science</strong></h4>
@@ -380,7 +392,7 @@
   <!-- ========================= start footer ========================= -->
   <footer class="footer text-center">
     <div class="container text-center py-2">
-      <a href="https://github.com/tu-nguyen/tu-nguyen.github.io">Simple GithubPages Portfolio</a> - Copyright © 2021 
+      <a href="https://github.com/tu-nguyen/tu-nguyen.github.io">Simple GithubPages Portfolio</a> - Copyright © 2024 
         <a href="https://tu-nguyen.github.io/">Tu Nguyen</a>
     </div>
   </footer>
