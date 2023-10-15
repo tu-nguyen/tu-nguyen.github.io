@@ -203,6 +203,59 @@ html, body {
     color: white;
 }
 
+/* project links */
+
+.projects .projects-gallery .our-project .project-links div {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.projects .projects-gallery .our-project .project-links a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects-gallery .our-project .project-links a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.projects .projects-gallery .our-project .project-links a:hover {
+    color: white;
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.projects .projects-gallery .our-project .project-links a:active {
+    color: white;
+}
+
+/* dead links */
+.projects .projects-gallery .our-project .dead-link a {
+    color: white;
+
+}
+.projects .projects-gallery .our-project .dead-link a:hover {
+    color: red;
+    cursor: pointer;
+    filter: brightness(1.1) drop-shadow(2px 2px 5px red);
+
+}
+
+.mfp-img {
+    height: 10px;
+}
+
+/* override project gallery pop up*/
+html body.mfp-zoom-out-cur div.mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-ready div.mfp-container.mfp-s-ready.mfp-image-holder div.mfp-content div.mfp-figure figure img.mfp-img {
+    width: 50vw;
+    height: auto;
+}
+
+html body.mfp-zoom-out-cur div.mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-ready div.mfp-container.mfp-s-ready.mfp-image-holder div.mfp-content div.mfp-figure figure figcaption div.mfp-bottom-bar div.mfp-title {
+    padding: 6px 18px 6px 6px;
+    background-color: hsla(0, 0%, 6%, 0.6); 
+}
+
 /* education */
 .education{
     background: black;
@@ -265,14 +318,14 @@ footer{
 }
 
 /* spacing on all sections */
-#about, #skills, #projects, #education, #contact {
+#about, #skills, #projects, #education {
     margin-top: 4rem;
     padding-top: 4rem;
     background: black;
 }
 
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .title {

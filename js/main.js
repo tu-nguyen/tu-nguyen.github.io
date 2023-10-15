@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     // // create consistant space for landing and navbar
     // $(function() {
 
@@ -24,9 +23,9 @@ $(document).ready(function(){
     })
 
 
-    $('.projects .projects-gallery .test-popup-link').magnificPopup({
+    $('.test-popup-link').magnificPopup({
         type:'image',
-        gallery:{enabled:true}
+        gallery:{enabled:true},
     });
 
     // sticky navbar
