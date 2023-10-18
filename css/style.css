@@ -332,13 +332,10 @@ footer{
     padding-bottom: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* override on phone */
+@media (max-width: 767px) {
+    .about-hero,
+    .about-text {
+        width: auto;
+    }
+  }
