@@ -92,8 +92,16 @@ html, body {
 }
 
 /* about */
+.about .about-info {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about .about-hero {
+    margin-top: 5%;
+}
+
 .about img {
-    margin: auto;
     width: 40%;
     height: auto;
 }
@@ -334,8 +342,17 @@ footer{
 
 /* override on phone */
 @media (max-width: 767px) {
-    .about-hero,
+    .about-info {
+        display: grid;
+    }
+
+    .about-hero {
+        width: auto;
+        padding-bottom: 30px;
+    }
+
     .about-text {
         width: auto;
+        padding-top: 30px;
     }
   }
