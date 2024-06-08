@@ -104,6 +104,10 @@ html, body {
 .about img {
     width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
 }
 
 .about .links {
