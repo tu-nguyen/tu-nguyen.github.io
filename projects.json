@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "AccelerometerPlay",
+        "description": "Simple app that uses phone's sensor - Final project for CS443.",
+        "technologiesUsed": ["Java", "Android"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/cs443-project",
+        "demo": false,
+        "demoLink": "",
+        "date": "2017/12"
+    },
+    {
+        "id": 2,
+        "title": "MultiWeather",
+        "description": "Android app that makes API calls, parses receiving JSON data for weather information, and aggregates those data. Final project for CS410.",
+        "technologiesUsed": ["Java", "Android", "API"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/multiWeather",
+        "demo": false,
+        "demoLink": "",
+        "date": "2017/12"
+    },
+    {
+        "id": 3,
+        "title": "Boston Crime EDA",
+        "description": "Basic EDA with Boston's crime data from 2012 - 2015.",
+        "technologiesUsed": ["Python", "numpy", "pandas", "matplotlib", "seaborn", "Jupyter Notebook", "Data Science"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015",
+        "demo": false,
+        "demoLink": "",
+        "date": "2019/04"
+    },
+    {
+        "id": 4,
+        "title": "django-chatapp",
+        "description": "Real time Chat Room App made with Python, Django, Javascript, and AJAX.",
+        "technologiesUsed": ["Python", "Django", "JavaScript"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/django-chatapp",
+        "demo": false,
+        "demoLink": "",
+        "date": "2021/06"
+    },
+    {
+        "id": 5,
+        "title": "burrito-bot",
+        "description": "Discord and Twitch bot for the burrito guy server written with NodeJS; listens for clips and post on discord as well as other commands. Deployed on AWS.",
+        "technologiesUsed": ["JavaScript", "NodeJS", "API", "AWS"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/burrito-bot",
+        "demo": false,
+        "demoLink": "",
+        "date": "2022/05"
+    },
+    {
+        "id": 6,
+        "title": "django-comichost",
+        "description": "Comic hosting website made with Python, Django, PostgreSQL deployed to Heroku.",
+        "technologiesUsed": ["JavaScript", "NodeJS", "PostgreSQL"],
+        "imageLink": "",
+        "previewImageLink": "",
+        "githubLink": "https://github.com/tu-nguyen/django-comichost",
+        "demo": true,
+        "demoLink": "https://sheltered-dusk-19931-1c9a82efd65a.herokuapp.com/",
+        "date": "2023/10"
+    }
+]
