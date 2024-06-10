@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Shift Lead / Photo Specialist",
+        "company": "Walgreens",
+        "location": "Boston, MA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam phasellus vestibulum. Fames ac turpis egestas maecenas.",
+        "date": "Aug 2011 - Jul 2019",
+        "skills": ["Customer Service", "Cash Handling", "Photo"]
+    },
+    {
+        "id": 2,
+        "title": "CAO Systems Specialist",
+        "company": "ADUSA Procurement",
+        "location": "Quincy, MA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam phasellus vestibulum. Fames ac turpis egestas maecenas.",
+        "date": "Jul 2018 - Jun 2021",
+        "skills": ["SQL", "Excel", "Python"]
+    },
+    {
+        "id": 3,
+        "title": "Software Engineer",
+        "company": "Perch",
+        "location": "Boston, MA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam phasellus vestibulum. Fames ac turpis egestas maecenas.",
+        "date": "Jun 2021 - Mar 2024",
+        "skills": ["Python", "Django", "AWS", "REST"]
+    }
+]
