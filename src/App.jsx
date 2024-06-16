@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <section>
       <div className='grid h-screen place-items-center'>
         <div className='mx-auto text-white text-center'>
