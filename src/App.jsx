@@ -1,29 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Navbar from './components/Navbar'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      {/* <Navbar /> */}
+      <section>
+      <div className='grid h-screen place-items-center'>
+        <div className='mx-auto text-white text-center'>
+          <h1 className='text-5xl'>Tu Nguyen</h1>
+          <h3 className='text-4xl'>Full Stack Software Engineer</h3>
+          <h4 className='text-2xl'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>) <br /><a href="./v1/index.html"><strong>click here</strong></a> to view old version</h4>
+        </div>
       </div>
-      <h1>Tu Nguyen</h1>
-      <div className="card">
-
-        <h3><strong>Full Stack Software Engineer</strong></h3>
-        <h4><strong>Portfolio</strong>  under construction (Updating to use React + Vite + Tailwind) <br /><a href="./v1/index.html">click here</a> to view old version</h4>
-      </div>
+      </section>
     </>
   )
 }
 
 export default App
+
