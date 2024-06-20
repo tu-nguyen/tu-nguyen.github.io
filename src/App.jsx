@@ -1,9 +1,10 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import React from 'react'
+import Navbar from './components/Navbar'
 
-function App() {
+const App = () => {
   return (
     <>
+      {/* <Navbar /> */}
       <div>
         <div className='grid h-screen place-items-center'>
           <div className='mx-auto text-white text-center'>
@@ -18,4 +19,3 @@ function App() {
 }
 
 export default App
-
