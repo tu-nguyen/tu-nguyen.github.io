@@ -13,11 +13,11 @@ const About = () => {
 
 
 
-<section className='bg-sky-700 py-20 mb-4'>
+    <section className='bg-sky-700 py-20 mb-4'>
+    <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center'>About me</h1>
+    <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'>
-                <h1 className='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>About me</h1>
-                <span className='hr'></span>
                 <div className='bg-gray-100 p-6 rounded-lg shadow-md content-center'>
                     <div className='bg-gray-100 p-6 rounded-lg shadow-md'>
                         <a className='mt-2 mb-4 text-white'>

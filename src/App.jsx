@@ -2,14 +2,16 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Jobs from './components/Jobs'
 import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div className='container mx-auto'>
-      {/* <Navbar /> */}
+      {/* <Navbar />  */}
       {/* <Hero /> */}
       {/* <About /> */}
+      {/* <Jobs /> */}
       {/* <Footer /> */}
 
       <div>
@@ -21,7 +23,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      
+
     </div> 
   )
 }
