@@ -12,23 +12,23 @@ const Navbar = () => {
   console.log(test)
 
   return (
-    <nav className="bg-sky-700 border-b border-sky-700">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
-          <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
-            <a href="" className="flex flex-shrink-0 items-center mr-4">
-              <img className="h-10 w-auto" src={ logo } alt="React Jobs"/><span className="hidden md:block text-white text-2xl font-bold ml-2">Home</span>
+    <nav className='bg-sky-700 border-b border-sky-700'>
+      <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
+        <div className='flex h-20 items-center justify-between'>
+          <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
+            <a href='' className='flex flex-shrink-0 items-center mr-4'>
+              <img className='h-10 w-auto' src={ logo } alt='React Jobs'/><span className='hidden md:block text-white text-2xl font-bold ml-2'>Home</span>
             </a>
 
-            <div className="md:ml-auto">
-              <div className="flex space-x-2">
-                <a href="#about" className={ linkClass }>About</a>
-                <a href="#experience" className={ linkClass }>Experience</a>
-                <a href="#skills" className={ linkClass }>Skills</a>
-                <a href="#projects" className={ linkClass }>Projects</a>
-                <a href="#education" className={ linkClass }>Education</a>
+            <div className='md:ml-auto'>
+              <div className='flex space-x-2'>
+                <a href='#about' className={ linkClass }>About</a>
+                <a href='#experience' className={ linkClass }>Experience</a>
+                <a href='#skills' className={ linkClass }>Skills</a>
+                <a href='#projects' className={ linkClass }>Projects</a>
+                <a href='#education' className={ linkClass }>Education</a>
 
-                <a href="#" className={ linkClass }>Resume</a>
+                <a href='#' className={ linkClass }>Resume</a>
               </div>
             </div>
           </div>
