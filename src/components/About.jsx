@@ -26,9 +26,24 @@ const About = () => {
                             <img className='w-auto rounded-full' src={profile} alt="" />
                         </a>
                     </div>
-                    <div className='text-white'>test</div>
+
+                    <div className='bg-gray-100 p-6 rounded-sm shadow-md'>
+                        <div >
+                            <ul className="grid grid-cols-1 md:grid-cols-3 text-white text-center m-0">
+                            <li>
+                                <a href="mailto:tu.t.nguyen93@gmail.com" title="Email">Email<i class="fas fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/tu-nguyen" target="_blank" title="Github">Github<i class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/tu-nguyen/" target="_blank" title="LinkedIn">LinkedIn<i class="fab fa-linkedin"></i></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div className='bg-indigo-100 p-6 rounded-lg shadow-md'>
+                <div className='bg-indigo-100 py-6 rounded-lg shadow-md'>
                     <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
                         <p className='mt-2 mb-4 text-white'>
@@ -41,9 +56,9 @@ const About = () => {
 
                     
                     
-                    <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
-                        <h3 className='text-white text-2xl font-bold'>Skills</h3>
-                        <div className='grid grid-cols-1 md:grid-cols-4 gap-3 text-white'>
+                    <div className='bg-gray-100 py-2 rounded-lg shadow-md'>
+                        <h3 className='text-white text-2xl font-bold text-center'>Skills</h3>
+                        <div className='grid grid-cols-1 md:grid-cols-4 text-white m-0'>
                             {skills.map((skill) => (
                                 <Skill key={skill.id} skill={ skill }/>
                                 ))}

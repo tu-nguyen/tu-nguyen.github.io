@@ -7,11 +7,20 @@ function Item(props) {
 const Skill = ({ skill }) => {
   return (
     <div>
-        {skill.title}
+        <div>
+            <h4 className='text-xl my-6 text-white pb-2 text-center'>
+                {skill.title}
+            </h4>
+        </div>
+        
+        <div className='text-center'>
+            <ul>
+                {skill.skills.map((message) => <Item key={message} message={message} />)}
+            </ul>
+        </div>
+        
 
-        <ul>
-            {skill.skills.map((message) => <Item key={message} message={message} />)}
-        </ul>
+        
       
     </div>
   )

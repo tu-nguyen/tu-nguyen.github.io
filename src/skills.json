@@ -6,12 +6,12 @@
     },
     {
         "id": 2,
-        "title": "Framework",
-        "skills": ["Django", "Flask", "FastAPI", "React", "NodeJs", "Express", "Tailwind"]
+        "title": "Frameworks",
+        "skills": ["Django", "FastAPI", "React", "NodeJs", "Express", "Tailwind"]
     },
     {
         "id": 3,
-        "title": "Database & Caching",
+        "title": "Misc",
         "skills": ["postgreSQL", "MySQL", "SQLite", "Redis", "Kafta"]
     },
     {
