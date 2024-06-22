@@ -5,8 +5,8 @@ const Footer = () => {
     // maybe add py-5 here?
     <footer className='bg-sky-700 border-b border-sky-700'>
       <div className="text-white text-center">
-        <p className='my-4'>Designed in Figma and coded in Visual Studio Code by Tu Nguyen.</p>
-        <p className='my-4'>Built with React.js, Vite and Tailwind CSS, deployed with GitHub Pages.</p>
+        <p className='my-4'>Designed in <a href='https://www.figma.com/' className='font-bold'>Figma</a> and coded in <a href='https://code.visualstudio.com/' className='font-bold'>Visual Studio Code</a> by Tu Nguyen.</p>
+        <p className='my-4'>Built with <a href='https://react.dev/' className='font-bold'>React.js</a>, <a href='https://vitejs.dev/' className='font-bold'>Vite</a> and <a href='https://tailwindcss.com/' className='font-bold'>Tailwind CSS</a>, deployed with <a href='https://pages.github.com/' className='font-bold'>GitHub Pages</a>.</p>
       </div>
     </footer>
   )
