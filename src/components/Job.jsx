@@ -1,11 +1,7 @@
 import React from 'react';
-import jobs from '../jobs.json';
 import { useState } from 'react';
 
 const Job = ({ job }) => {
-
-  console.log(jobs)
-
   const [showFullDescription, setShowFullDescription] = useState(false);
 
   let description = job.description;

@@ -1,7 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
+import Job from './Job';
+import jobs from '../jobs.json';
 
 const Jobs = () => {
+
+
   return (
     <section className="bg-blue-50 px-4 py-10">
       <div className="container-xl lg:container m-auto">
@@ -11,10 +15,9 @@ const Jobs = () => {
         
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
-            tmp
-            {/* {jobs.map((job) => (
-              <JobListing key={job.id} job={ job }/>
-              ))} */}
+            {jobs.reverse().map((job) => (
+              <Job key={job.id} job={ job }/>
+              ))}
         </div>
           
             

@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Languages",
+        "skills": ["Python", "JavaScript", "HTML/5", "CSS/3"]
+    },
+    {
+        "title": "Framework",
+        "skills": ["Django", "Flask", "FastAPI", "React", "NodeJs", "Express", "Tailwind"]
+    },
+    {
+        "title": "Database & Caching",
+        "skills": ["postgreSQL", "MySQL", "SQLite", "Redis", "Kafta"]
+    }
+    {
+        "title": "Tools",
+        "skills": ["Git", "Bash", "VS Code", "PyCharm"]
+    }
+
+]
