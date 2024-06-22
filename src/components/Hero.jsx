@@ -16,7 +16,7 @@ const Hero = ({
             { subtitle }
           </p>
 
-          <h4 className='my-2 text-white text-xl'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>) <br /><a href="./v1/index.html"><strong>click here</strong></a> to view old version</h4>
+          <h4 className='my-4 text-white text-xl'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>) <br /><a href="./v1/index.html"><strong>click here</strong></a> to view old version</h4>
         </div>
       </div>
     </section>

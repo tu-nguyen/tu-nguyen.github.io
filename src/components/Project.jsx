@@ -2,10 +2,16 @@ import React from 'react'
 
 const Project = ({ project }) => {
   return (
-    <div>
-      {project.title}
+    <div className='bg-black-100 p-6 rounded-lg shadow-md'>
+      <h2 className='text-white text-xl font-bold'>
+        {project.title}
+      </h2>
+      
       <br></br>
-      {project.description}
+      <p className='mt-2 mb-4 text-white'>
+        {project.description}
+      </p>
+      
     </div>
   )
 }

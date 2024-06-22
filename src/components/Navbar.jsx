@@ -24,11 +24,11 @@ const Navbar = () => {
               <div className='flex space-x-2'>
                 <a href='#about' className={ linkClass }>About</a>
                 <a href='#experience' className={ linkClass }>Experience</a>
-                <a href='#skills' className={ linkClass }>Skills</a>
+                {/* <a href='#skills' className={ linkClass }>Skills</a> */}
                 <a href='#projects' className={ linkClass }>Projects</a>
-                <a href='#education' className={ linkClass }>Education</a>
+                {/* <a href='#education' className={ linkClass }>Education</a> */}
 
-                <a href='#' className={ linkClass }>Resume</a>
+                <a href='#' className='text-white bg-sky-900 hover:bg-gray-900 hover:text-sky rounded-md px-3 py-2'>Resume</a>
               </div>
             </div>
           </div>

@@ -13,8 +13,8 @@ const About = () => {
 
 
 
-    <section id='about' className='bg-sky-700 py-20 mb-4'>
-    <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center'>About me</h1>
+    <section id='about' className='bg-sky-700 px-4 py-20'>
+    <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pt-3'>About me</h1>
     <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'>
@@ -24,18 +24,35 @@ const About = () => {
                             <img className='w-auto rounded-full' src={profile} alt="" />
                         </a>
                     </div>
+                    <div className='text-white'>test</div>
                 </div>
                 <div className='bg-indigo-100 p-6 rounded-lg shadow-md'>
-                    <div className='bg-gray-100 p-6 rounded-lg shadow-md'>
+                    <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
                         <p className='mt-2 mb-4 text-white'>
                             sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in
                         </p>
-                        <p className='mt-2 mb-4 text-white'>
+                        {/* <p className='mt-2 mb-2 text-white'>
                             donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo
-                        </p>
-    
+                        </p> */}
                     </div>
+
+                    
+                    
+                    <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
+                        <h3 className='text-white text-2xl font-bold'>Skills</h3>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-3 text-white'>
+
+                            <div className='text-white'>test</div>
+                            <div className='text-white'>test</div>
+                            <div className='text-white'>test</div>
+                        </div>
+
+                            
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
