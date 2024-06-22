@@ -1,5 +1,7 @@
 import React from 'react'
-import profile from '../assets/images/profile.jpg';
+import profile from '../assets/images/profile.jpg'
+import Skill from './Skill'
+import skills from '../skills.json'
 
 const About = () => {
   return (
@@ -41,11 +43,14 @@ const About = () => {
                     
                     <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
                         <h3 className='text-white text-2xl font-bold'>Skills</h3>
-                        <div className='grid grid-cols-1 md:grid-cols-3 gap-3 text-white'>
+                        <div className='grid grid-cols-1 md:grid-cols-4 gap-3 text-white'>
+                            {skills.map((skill) => (
+                                <Skill key={skill.id} skill={ skill }/>
+                                ))}
 
+                            {/* <div className='text-white'>test</div>
                             <div className='text-white'>test</div>
-                            <div className='text-white'>test</div>
-                            <div className='text-white'>test</div>
+                            <div className='text-white'>test</div> */}
                         </div>
 
                             

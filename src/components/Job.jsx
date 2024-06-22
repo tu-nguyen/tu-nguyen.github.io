@@ -1,5 +1,5 @@
-import React from 'react';
-import { useState } from 'react';
+import React from 'react'
+import { useState } from 'react'
 
 const Job = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);

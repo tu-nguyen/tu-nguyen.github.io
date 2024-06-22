@@ -1,17 +1,21 @@
 [
     {
+        "id": 1,
         "title": "Languages",
         "skills": ["Python", "JavaScript", "HTML/5", "CSS/3"]
     },
     {
+        "id": 2,
         "title": "Framework",
         "skills": ["Django", "Flask", "FastAPI", "React", "NodeJs", "Express", "Tailwind"]
     },
     {
+        "id": 3,
         "title": "Database & Caching",
         "skills": ["postgreSQL", "MySQL", "SQLite", "Redis", "Kafta"]
-    }
+    },
     {
+        "id": 4,
         "title": "Tools",
         "skills": ["Git", "Bash", "VS Code", "PyCharm"]
     }
