@@ -4,7 +4,7 @@ import projects from '../projects.json'
 
 const Projects = () => {
   return (
-    <section className='bg-sky-700 px-4 py-20'>
+    <section id= 'projects' className='bg-sky-700 px-4 py-20'>
       <h2 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center'>
           Projects
         </h2>

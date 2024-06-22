@@ -53,7 +53,7 @@ const Job = ({ job }) => {
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-md relative">
+    <div className="bg-white rounded-xl shadow-md">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'">
             <JobCard job={job} />
         </div>

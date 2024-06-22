@@ -13,7 +13,7 @@ const About = () => {
 
 
 
-    <section className='bg-sky-700 py-20 mb-4'>
+    <section id='about' className='bg-sky-700 py-20 mb-4'>
     <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center'>About me</h1>
     <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
