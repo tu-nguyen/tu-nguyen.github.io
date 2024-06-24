@@ -20,8 +20,8 @@ const About = () => {
     <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'>
-                <div className='bg-gray-100 p-6 rounded-lg shadow-md content-center'>
-                    <div className='bg-gray-100 p-6 rounded-lg shadow-md'>
+                <div className='bg-gray-100 p-6 rounded-lg shadow-md self-center items-center'>
+                    <div className='mx-auto bg-gray-100 p-6 rounded-lg shadow-md max-w-sm'>
                         <a className='mt-2 mb-4 text-white'>
                             <img className='w-auto rounded-full' src={profile} alt="" />
                         </a>
@@ -43,7 +43,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-indigo-100 py-6 rounded-lg shadow-md'>
+                <div className='bg-indigo-100 py-6 rounded-lg shadow-md grid grid-rows-2 items-center lg:px-6'>
                     <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
                         <p className='mt-2 mb-4 text-white'>
@@ -53,8 +53,6 @@ const About = () => {
                             donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo
                         </p> */}
                     </div>
-
-                    
                     
                     <div className='bg-gray-100 py-2 rounded-lg shadow-md'>
                         <h3 className='text-white text-2xl font-bold text-center'>Skills</h3>
@@ -67,12 +65,7 @@ const About = () => {
                             <div className='text-white'>test</div>
                             <div className='text-white'>test</div> */}
                         </div>
-
-                            
                     </div>
-
-
-
                 </div>
             </div>
         </div>
