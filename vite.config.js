@@ -11,6 +11,10 @@ export default defineConfig({
         {
           src: 'v1',
           dest: ''
+        },
+        {
+          src: './src/assets/images/projects',
+          dest: 'assets/images'
         }
       ]
     })
