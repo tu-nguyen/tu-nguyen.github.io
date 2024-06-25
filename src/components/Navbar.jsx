@@ -18,10 +18,10 @@ const Navbar = () => {
           <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
             <a href='#' className='flex flex-shrink-0 items-center mr-4'>
               {/* <img className='h-10 w-auto' src={ logo } alt='React Jobs'/> */}
-              <span className='hidden md:block text-white text-xl font-bold ml-2 uppercase'>Tu</span>
+              <span className='hidden block text-white text-xl font-bold ml-2 uppercase'>Tu</span>
             </a>
 
-            <div className='md:ml-auto'>
+            <div className='ml-auto'>
               <div className='flex space-x-2'>
                 <a href='#about' className={ linkClass }>About</a>
                 <a href='#experience' className={ linkClass }>Experience</a>

@@ -6,7 +6,7 @@ const Hero = ({
 }) => {
   return (
 
-    <section className='bg-black-700 h-screen grid place-items-center'>
+    <section className='bg-black-700 h-screen xl:max-h-[1280px] grid place-items-center'>
       <div className='mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
         <div className='text-center'>
           <h1 className='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>

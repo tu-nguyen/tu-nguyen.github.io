@@ -10,11 +10,20 @@ const App = () => {
   return (
     <>
       <Hero />
-      <Navbar /> 
-      <About />
-      <Jobs />
-      <Projects />
-      <Footer />
+      {/* <Navbar />  */}
+      {/* <About /> */}
+      {/* <Jobs /> */}
+      {/* <Projects /> */}
+      {/* <Footer /> */}
+
+      {/* <!-- isotope js library--> */}
+      <script src="./assets/js/isotope/isotope.min.js"></script>
+
+      {/* <!-- magific popup script file --> */}
+      <script src="./assets/js/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+      {/* <!-- custom js file --> */}
+      <script src="./assets/js/main.js"></script>
     </> 
   )
 }

@@ -11,7 +11,7 @@ const Project = ({ project }) => {
       
       <br></br>
       <p className='mt-2 mb-4 text-white'>
-        {project.description}
+        {project.technologiesUsed}
       </p>
       
     </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import profile from '../assets/images/profile.jpg'
 import Skill from './Skill'
 import skills from '../skills.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
