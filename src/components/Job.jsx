@@ -11,13 +11,13 @@ const Job = ({ job }) => {
     description = description.substring(0, 90) + '...';
   }
 
-  function JobItemA({title, company, skills, alignment = '' }) {
+  function JobItemA({alignment = '' }) {
     return (
         <div className={`mb-4 ${alignment}`}>
             <h2 className="text-xl font-bold">
-                {title} - {company} 
+                {job.title} - <a href={`${job.link}`} className="text-sky-500">{job.company} </a>
             </h2>
-            <div className='text-sky-500'>
+            <div className="text-sky-500">
                 {skills}
             </div>
             <div className="mb-5">
@@ -28,7 +28,7 @@ const Job = ({ job }) => {
     )
   }
 
-  function JobItemB({location, date, skills, alignment = '' }) {
+  function JobItemB({alignment = '' }) {
     return (
         <div className={`mb-4 ${alignment}`}>
             <div className="text-gray-600 my-2">
