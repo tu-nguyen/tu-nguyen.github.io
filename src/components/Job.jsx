@@ -5,17 +5,21 @@ const Job = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
   let description = job.description;
+  let skills = job.skills.join("  •  ");
 
   if(!showFullDescription) {
     description = description.substring(0, 90) + '...';
   }
 
-  function JobItemA({title, company, alignment = '' }) {
+  function JobItemA({title, company, skills, alignment = '' }) {
     return (
         <div className={`mb-4 ${alignment}`}>
             <h2 className="text-xl font-bold">
                 {title} - {company} 
             </h2>
+            <div className='text-sky-500'>
+                {skills}
+            </div>
             <div className="mb-5">
                 {description}
             </div>
@@ -24,7 +28,7 @@ const Job = ({ job }) => {
     )
   }
 
-  function JobItemB({location, date, alignment = '' }) {
+  function JobItemB({location, date, skills, alignment = '' }) {
     return (
         <div className={`mb-4 ${alignment}`}>
             <div className="text-gray-600 my-2">
@@ -39,7 +43,7 @@ const Job = ({ job }) => {
     if (job.id % 2 === 0) {
         return (
             <>
-                <JobItemA title={job.title} company={job.company} alignment='text-right'/>
+                <JobItemA title={job.title} company={job.company} skills={skills} alignment='text-right'/>
                 <JobItemB location={job.location} date={job.date}/>
             </>
             )
@@ -47,7 +51,7 @@ const Job = ({ job }) => {
     return (
         <>
             <JobItemB location={job.location} date={job.date} alignment='text-right'/>
-            <JobItemA title={job.title} company={job.company}/>
+            <JobItemA title={job.title} company={job.company} skills={skills}/>
         </>
     )
   }
