@@ -57,12 +57,12 @@ const About = () => {
                 <div className='bg-indigo-100 py-6 rounded-lg shadow-md grid grid-rows-2 items-center lg:px-6'>
                     <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
-                        <p className='mt-2 mb-4 text-white'>
-                            sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in
+                        <p className='mt-2 mb-2 text-white'>
+                            I'm an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. Skilled in collaborating with cross-functional teams to design and implement innovative solutions. Proficient in a variety of languages and frameworks including <strong>Python</strong>, <strong>Django</strong>, <strong>React</strong>, and <strong></strong>NodeJs, with a strong foundation in cloud technologies like <strong>AWS</strong> and <strong>Docker</strong>.
                         </p>
-                        {/* <p className='mt-2 mb-2 text-white'>
-                            donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo
-                        </p> */}
+                        <p className='mt-2 text-white'>
+                        Bachelor of Science in Computer Science from the University of Massachusetts Boston, where I gained a strong foundation in software engineering principles, best practices, and back-end technologies, including <strong>C</strong>, <strong>C++</strong>, and <strong>Java</strong>.
+                        </p>
                     </div>
                     
                     <div className='bg-gray-100 py-2 rounded-lg shadow-md'>
