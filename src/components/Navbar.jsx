@@ -9,7 +9,6 @@ const Navbar = () => {
   const test = ({ isActive }) => {
     isActive ? 'a' : 'b'
   }
-  console.log(test)
 
   return (
     <nav className='sticky top-0 bg-black-700 border-b border-sky-700 -mt-20'>
