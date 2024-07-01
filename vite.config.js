@@ -13,6 +13,10 @@ export default defineConfig({
           dest: ''
         },
         {
+          src: 'Tu Nguyen Resume.pdf',
+          dest: ''
+        },
+        {
           src: './src/assets/images/projects',
           dest: 'assets/images'
         },
