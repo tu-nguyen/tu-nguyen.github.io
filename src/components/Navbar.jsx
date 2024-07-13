@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a href='#projects' className={ linkClass }>Projects</a>
                 {/* <a href='#education' className={ linkClass }>Education</a> */}
 
-                <a href='#' className='text-white bg-sky-900 hover:bg-gray-900 hover:text-sky rounded-md px-3 py-2 uppercase'>Resume</a>
+                <a href='../Tu Nguyen Resume.pdf' target="_blank" className='text-white bg-sky-900 hover:bg-gray-900 hover:text-sky rounded-md px-3 py-2 uppercase'>Resume</a>
               </div>
             </div>
           </div>
