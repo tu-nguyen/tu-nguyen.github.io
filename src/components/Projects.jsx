@@ -60,7 +60,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <section id= 'projects' className='bg-sky-700 px-4 py-20 projects'>
+    <section id= 'projects' className='bg-black-700 px-4 py-20 projects'>
       <h2 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pb-6 pt-3'>
           Projects
         </h2>

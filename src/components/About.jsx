@@ -15,19 +15,19 @@ const About = () => {
 
 
 
-    <section id='about' className='bg-sky-700 px-4 py-20'>
+    <section id='about' className='bg-black px-4 py-20'>
     <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pt-3'>About me</h1>
     <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'>
-                <div className='bg-gray-100 p-6 rounded-lg shadow-md self-center items-center'>
-                    <div className='mx-auto bg-gray-100 p-6 rounded-lg shadow-md max-w-sm'>
+                <div className='p-6 rounded-lg shadow-md self-center items-center'>
+                    <div className='mx-auto p-6 rounded-lg shadow-md max-w-sm'>
                         <a className='mt-2 mb-4 text-white'>
                             <img className='w-auto rounded-full' src={profile} alt="" />
                         </a>
                     </div>
 
-                    <div className='bg-sky-700 p-6 rounded-sm shadow-md'>
+                    <div className='bg-black p-6 rounded-sm shadow-md'>
                         <div >
                             <ul className="grid grid-cols-1 md:grid-cols-3 text-white text-center m-0">
                             <li className='inline-block'>
@@ -54,8 +54,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-indigo-100 py-6 rounded-lg shadow-md grid grid-rows-2 items-center lg:px-6'>
-                    <div className='bg-gray-100 p-3 rounded-lg shadow-md'>
+                <div className='py-6 rounded-lg shadow-md grid grid-rows-2 items-center lg:px-6'>
+                    <div className='p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
                         <p className='mt-2 mb-2 text-white'>
                             I'm an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. Skilled in collaborating with cross-functional teams to design and implement innovative solutions. Proficient in a variety of languages and frameworks including <strong>Python</strong>, <strong>Django</strong>, <strong>React</strong>, and <strong></strong>NodeJs, with a strong foundation in cloud technologies like <strong>AWS</strong> and <strong>Docker</strong>.
@@ -65,7 +65,7 @@ const About = () => {
                         </p>
                     </div>
                     
-                    <div className='bg-gray-100 py-2 rounded-lg shadow-md'>
+                    <div className='py-2 rounded-lg shadow-md'>
                         <h3 className='text-white text-2xl font-bold text-center'>Skills</h3>
                         <div className='grid grid-cols-1 md:grid-cols-4 text-white m-0'>
                             {skills.map((skill) => (

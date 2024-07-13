@@ -5,7 +5,7 @@ import jobs from '../jobs.json'
 
 const Jobs = () => {
   return (
-    <section id='experience' className="bg-sky-700 px-4 py-20">
+    <section id='experience' className="bg-black-700 px-4 py-20">
         <h2 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pt-3'>
           Experience
         </h2>
