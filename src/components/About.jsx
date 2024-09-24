@@ -15,14 +15,14 @@ const About = () => {
 
 
 
-    <section id='about' className='bg-black px-4 py-20'>
+    <section id='about' className='bg-black-700 px-4 py-20'>
     <h1 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pt-3'>About me</h1>
     <span className='hr'></span>
         <div className='container-xl lg:container m-auto'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg'>
-                <div className='p-6 rounded-lg shadow-md self-center items-center'>
-                    <div className='mx-auto p-6 rounded-lg shadow-md max-w-sm'>
-                        <a className='mt-2 mb-4 text-white'>
+            <div className='grid grid-cols-1 md:grid-cols-2 px-4 rounded-lg'>
+                <div className='px-4 rounded-lg shadow-md self-center items-center'>
+                    <div className='mx-auto p-6 mb-6 rounded-lg shadow-md max-w-sm'>
+                        <a className='mt-2 text-white'>
                             <img className='w-auto rounded-full' src={profile} alt="" />
                         </a>
                     </div>
@@ -57,16 +57,13 @@ const About = () => {
                 <div className='py-6 rounded-lg shadow-md grid grid-rows-2 items-center lg:px-6'>
                     <div className='p-3 rounded-lg shadow-md'>
                         <h2 className='text-white text-2xl font-bold'>Hello, World!</h2>
-                        <p className='mt-2 mb-2 text-white'>
-                            I'm an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. Skilled in collaborating with cross-functional teams to design and implement innovative solutions. Proficient in a variety of languages and frameworks including <strong>Python</strong>, <strong>Django</strong>, <strong>React</strong>, and <strong></strong>NodeJs, with a strong foundation in cloud technologies like <strong>AWS</strong> and <strong>Docker</strong>.
-                        </p>
-                        <p className='mt-2 text-white'>
-                        Bachelor of Science in Computer Science from the University of Massachusetts Boston, where I gained a strong foundation in software engineering principles, best practices, and back-end technologies, including <strong>C</strong>, <strong>C++</strong>, and <strong>Java</strong>.
+                        <p className='mt-2 mb-2 text-white text-justify'>
+                            I am an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. Proficient in a variety of languages and frameworks including <strong>Python</strong>, <strong>Django</strong>, <strong>React.JS</strong>, and <strong>Node.JS</strong>, with a strong foundation in cloud technologies like <strong>AWS</strong>, <strong>Docker</strong>, and <strong>Kubernetes</strong>.
                         </p>
                     </div>
                     
                     <div className='py-2 rounded-lg shadow-md'>
-                        <h3 className='text-white text-2xl font-bold text-center'>Skills</h3>
+                        <h3 className='text-white text-2xl font-bold'>Skills</h3>
                         <div className='grid grid-cols-1 md:grid-cols-4 text-white m-0'>
                             {skills.map((skill) => (
                                 <Skill key={skill.id} skill={ skill }/>

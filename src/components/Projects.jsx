@@ -64,6 +64,7 @@ const Projects = () => {
       <h2 className='text-3xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pb-6 pt-3'>
           Projects
         </h2>
+        <span className='hr'></span>
 
         {/* <div className="row">
           <div className="button-group text-center col-lg-12 col-md-12 col-sm-12 text-white px-3">
