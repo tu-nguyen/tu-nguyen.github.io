@@ -12,3 +12,15 @@
     }
   }
 
+  .projects .row .button-group button {
+    color: white;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    margin: 2rem 3rem 4rem 3rem;
+}
+
+.projects .row .button-group .active {
+  color: rgb(14 165 233);
+  font-weight: bold;
+}
