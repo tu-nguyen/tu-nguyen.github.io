@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+      background-color: black;
+      color: white;
+  }
+}
+
+/* #wrapper {
+  min-height: 100%; 
+} */
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.terminal {
+  white-space: pre-line;
+  padding: 1rem;
+  min-height: 100%;
+  /* background-color: aqua; */
+}
+
+.terminal input {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0 0 0 4px;
+  /* background-color: blueviolet; */
+}
+
+.terminal textarea:focus, input:focus{
+  outline: none;
+}
+
+.terminal label, .terminal input[type=text] {
+  display: inline-block;
+}
+
+.terminal p {
+  display: inline;
+}
+
+.terminal .link {
+  color: blue;
+}
+

@@ -1,7 +1,7 @@
 import React from 'react'
-import profile from '../assets/images/profile.jpg'
+import profile from '../../assets/images/profile.jpg'
 import Skill from './Skill'
-import skills from '../skills.json'
+import skills from '../../skills.json'
 
 const About = () => {
   return (

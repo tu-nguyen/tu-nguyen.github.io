@@ -1,6 +1,6 @@
 import React, {  useEffect }from 'react'
 import Project from './Project'
-import projects from '../projects.json'
+import projects from '../../projects.json'
 import $ from 'jquery'
 import Isotope from 'isotope-layout'
 
