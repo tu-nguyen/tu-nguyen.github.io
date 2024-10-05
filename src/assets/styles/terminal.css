@@ -56,3 +56,18 @@
   color: blue;
 }
 
+span, form, form > label, form > input {
+  background-color: inherit;
+  color: inherit
+}
+
+.dark {
+  background-color: #121212;
+  color: #eee
+}
+
+.ubuntu {
+  background-color: #772953;
+  color: #fff
+}
+

@@ -8,6 +8,7 @@ import Help from "../commands/Help";
 import Jobs from "../commands/Jobs";
 import Projects from "../commands/Projects";
 import Contact from "../commands/Contact";
+import SetTheme from "../commands/SetTheme";
 
 
 const Command = (
@@ -45,6 +46,8 @@ const Command = (
         "resume": <Contact name={"resume"} />,
 
         "setname": <SetName setUsername={setUsername} newName={args[0]} />,
+        "settheme": <SetTheme setTheme={setTheme} newTheme={args[0]} />,
+        "theme": <SetTheme setTheme={setTheme} newTheme={args[0]} />,
         "clear": <Clear setOutput={setOutput} />,
         "echo": <Echo args={args.join(" ")} />,
     }[cmd]

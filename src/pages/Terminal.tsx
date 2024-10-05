@@ -83,7 +83,7 @@ const Terminal = () => {
 
     return (
         <div
-            className="terminal"
+            className={`${theme} terminal`}
             ref={containerRef}
             onClick={handleClick}
         >
@@ -100,7 +100,6 @@ const Terminal = () => {
                     ref={inputRef}
                 />
             </form>
-
         </div >
     );
 };
