@@ -4,7 +4,9 @@ import React from 'react'
 const About = () => {
     return (
         <>
-        <p>about out</p>
+        <p>Hey there! I'm Tu!</p><br />
+        <p>I'm a software engineer from Boston</p>
+        <br />
         </>
     );
 };

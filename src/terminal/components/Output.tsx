@@ -4,12 +4,12 @@ import Prompt from "./Prompt";
 function Output({output}) {
 
     function Display({cmd, output}) {
-        if (cmd === "" || cmd === "setname" || cmd === "clear"|| cmd === "settheme"|| cmd === "theme") {
-            return <><br />{output}</>
+        if (cmd == "" || cmd == null) {
+            return <><br /></>
         } else if (!output) {
             return <><br />{cmd} is not a valid command<br /></>
         } else {
-            return <><br />{output}<br /></>
+            return <><br />{output}</>
         }
     }
 

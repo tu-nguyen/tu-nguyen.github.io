@@ -13,10 +13,6 @@
   }
 }
 
-/* #wrapper {
-  min-height: 100%; 
-} */
-
 #root {
   position: absolute;
   top: 0;
@@ -29,6 +25,8 @@
   white-space: pre-line;
   padding: 1rem;
   min-height: 100%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
   /* background-color: aqua; */
 }
 
@@ -36,7 +34,7 @@
   border: none;
   outline: none;
   margin: 0;
-  padding: 0 0 0 4px;
+  padding: 0 0 0 8.5px;
   /* background-color: blueviolet; */
 }
 
@@ -56,9 +54,11 @@
   color: blue;
 }
 
-span, form, form > label, form > input {
+span, form, form > label, form > input, p, pre, div, a {
   background-color: inherit;
-  color: inherit
+  color: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 .dark {

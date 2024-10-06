@@ -1,10 +1,14 @@
 import React from 'react'
+import projects from '../../projects.json'
+import Project from './Project';
 
 
 const Projects = () => {
     return (
         <>
-        <p>projects</p>
+        {projects.map((project) => (
+            <Project key={project.id} project={ project }/>
+        ))}
         </>
     );
 };
