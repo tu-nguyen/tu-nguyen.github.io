@@ -7,17 +7,16 @@ const Contact = ({name}) => {
         if (name == "" || name == null) {
             return (
                 <>
-                <p>Enter these as commands to automatically go to the link</p><br /><br />
-                <p>email</p><br />
-                <p>linkedin</p><br />
-                <p>github</p><br />
-                <p>meet</p><br />
-                <p>resume</p><br />
-                <br />
-                <p>Email: tu.t.nguyen93@gmail.com</p><br />
-                <p>Github: https://github.com/tu-nguyen</p><br />
-                <p>LinkedIn: https://www.linkedin.com/in/tu-nguyen</p><br />
-                <p>Calendly: add later</p><br />
+                <p>Enter these as commands to automatically go to the link</p><br />
+                <p className="link" >email</p><br />
+                <p className="link" >linkedin</p><br />
+                <p className="link" >github</p><br />
+                <p className="link" >meet</p><br />
+                <p className="link" >resume</p><br />
+                <p>Email: <a className="link" href="mailto:tu.t.nguyen93@gmail.com" target="_blank">tu.t.nguyen93@gmail.com</a></p><br />
+                <p>Github: <a className="link" href="https://github.com/tu-nguyen" target="_blank">https://github.com/tu-nguyen</a></p><br />
+                <p>LinkedIn: <a className="link" href="https://www.linkedin.com/in/tu-nguyen/" target="_blank">https://www.linkedin.com/in/tu-nguyen</a></p><br />
+                <p>Calendly: <a className="link" href="https://calendly.com/tu-t-nguyen/quick-chat" target="_blank">https://calendly.com/tu-t-nguyen/quick-chat</a></p><br />
                 </>
             )
         } else if (name == "resume") {
