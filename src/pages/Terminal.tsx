@@ -105,8 +105,6 @@ const Terminal = () => {
             setOutput([newOutput, ...output])
             setInput("");
 
-            
-
             if (cmd == "exit") {
                 window.open("https://tu-nguyen.github.io/", "_self")
             } else if (cmd in link_map) {
@@ -117,15 +115,17 @@ const Terminal = () => {
         }
     )
 
+    var prompt_theme = theme + "-prompt"
+
     return (
         <div
             className={`${theme} terminal`}
             ref={containerRef}
             onClick={handleClick}
         >
-            <Output output={output}/>
+            <Output output={output} theme={theme}/>
             <form onSubmit={handleSubmit}>
-                <label htmlFor="terminal-input">{username}@{hostname}~$ </label>
+                <label htmlFor="terminal-input"><div className={prompt_theme}>{username}@{hostname}</div>~$ </label>
                 <input
                     id = "terminal-input"
                     title="terminal-input"

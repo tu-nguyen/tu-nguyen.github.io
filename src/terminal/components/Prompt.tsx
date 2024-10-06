@@ -1,11 +1,15 @@
 import React from "react";
 // username, hostname, path, symbol
 
-const Prompt = ({ out }) => {
+const Prompt = ({ out, theme }) => {
   return (
-    <span className="prompt">
-        {out.username}@{out.hostname}{out.path}{out.symbol}
+    <>
+    <span className={theme}>
+        {out.username}@{out.hostname}
     </span>
+    <span>
+      {out.path}{out.symbol}
+    </span></>
   );
 };
 

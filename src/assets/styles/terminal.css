@@ -66,8 +66,20 @@ span, form, form > label, form > input, p, pre, div, a {
   color: #eee
 }
 
+.dark-prompt {
+  display: inline-block;
+  color: lightblue;
+  /* background-color: red; */
+}
+
 .ubuntu {
   background-color: #772953;
   color: #fff
+}
+
+.ubuntu-prompt {
+  display: inline-block;
+  color: green;
+  /* background-color: red; */
 }
 
