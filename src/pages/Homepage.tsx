@@ -6,23 +6,38 @@ function Homepage() {
     return (
         <>
         <section className='bg-black-700 h-screen xl:max-h-[1280px] grid place-items-center'>
+            
+
             <div className='mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
-                <div className='text-center'>
-                    <h1 className='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>
+                <div className='text-center text-white'>
+                    <h1 className='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl text-sky-600'>
                         Tu Nguyen
                     </h1>
-                    <p className='my-2 text-2xl text-white'>
+                    <p className='my-2 text-2xl text-sky-600'>
                         Software Engineer
                     </p>
-
-                    <h4 className='my-4 text-white text-xl'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>)</h4> <br />
-                    <div className="grid grid-cols-3 gap-3">
-                        <a href="./v1/index.html"><h4 className="text-white"><strong>click here</strong> to view old version</h4></a>
-                        <Link to="/v2"><h4 className="text-white"><strong>click here</strong> to view v2</h4></Link>
-                        <Link to="/terminal"><h4 className="text-white"><strong>click here</strong> to view terminal version</h4></Link>
+                    <div className="grid grid-cols-5 gap-20 text-lg pt-6 pb-20">
+                        <a href="https://www.linkedin.com/in/tu-nguyen/">&lt;linkedin&gt;</a>
+                        <a href="https://github.com/tu-nguyen">&lt;github&gt;</a>
+                        <a href="mailto:tu.t.nguyen93@gmail.com">&lt;email&gt;</a>
+                        <a href="https://calendly.com/tu-t-nguyen/quick-chat">&lt;meet&gt;</a>
+                        <a className="text-sky-600" href="./Tu Nguyen Resume.pdf">&lt;resume&gt;</a>
                     </div>
-          
+
+                    
+                    <div className="grid grid-cols-3 gap-3 text-lg pt-10">
+                        <div>
+                            <a href="./v1/index.html"><h4 className="text-white"><strong>click here</strong> to view v1</h4></a>
+                        </div>
+                        <div>
+                            <Link to="/v2"><h4 className="text-white"><strong>click here</strong> to view v2</h4></Link>
+                        </div>
+                        <div>
+                            <Link to="/terminal"><h4 className="text-sky-600" ><strong className="text-sky-600">click here</strong> to view terminal</h4></Link>
+                        </div>
+                    </div>
                 </div>
+                <h4 className='my-4 text-white text-md absolute bottom-0'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>)</h4> <br />
             </div>
         </section>
         </>
