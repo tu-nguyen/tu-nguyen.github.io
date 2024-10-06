@@ -18,12 +18,15 @@ const SetTheme = ({setTheme, arg, newTheme}) => {
         return (
         <>
         <p>dark</p><br />
-        <p>ubuntu</p>
+        <p>ubuntu</p><br />
+        <p>matrix</p><br />
+        <p>dark-dracula</p><br />
+        <p>solar</p>
         <br />
         </>
         )
     } else if (arg == "set") {
-        if (newTheme == "" || newTheme == null || !["dark", "ubuntu"].includes(newTheme)) {
+        if (newTheme == "" || newTheme == null || !["dark", "ubuntu", "matrix", "dark-dracula", "solar"].includes(newTheme)) {
             return <>{newTheme} is not a valid theme<br /></>
         } else {
             useEffect(() => {

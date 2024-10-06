@@ -16,7 +16,7 @@ export default function App() {
           <Route index element={<Homepage />} />
           <Route path="v2" element={<V2 />} />
           <Route path="terminal" element={<Terminal />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
+          <Route path="*" element={<Terminal />} />
         </Route>
       </Routes>
     </BrowserRouter>

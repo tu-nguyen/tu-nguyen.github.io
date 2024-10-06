@@ -23,7 +23,7 @@
 
 .terminal {
   white-space: pre-line;
-  padding: 1rem;
+  padding: .5rem 1rem 1rem 1rem;
   min-height: 100%;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   
@@ -50,10 +50,6 @@
   display: inline;
 }
 
-.terminal .link {
-  color: blue;
-}
-
 span, form, form > label, form > input, p, pre, div, a {
   background-color: inherit;
   color: inherit;
@@ -66,20 +62,68 @@ span, form, form > label, form > input, p, pre, div, a {
   color: #eee
 }
 
+.dark .link {
+  color: #4b4aec;
+}
+
 .dark-prompt {
   display: inline-block;
   color: lightblue;
-  /* background-color: red; */
 }
 
 .ubuntu {
-  background-color: #772953;
+  background-color: #300a24;
   color: #fff
+}
+
+.ubuntu .link {
+  color: #4b4aec;
 }
 
 .ubuntu-prompt {
   display: inline-block;
-  color: green;
-  /* background-color: red; */
+  color: #4c7115;
+}
+
+.matrix {
+  background-color: #000100;
+  color: #01d000
+}
+
+.matrix .link {
+  color: #01d000;
+}
+
+.matrix-prompt {
+  display: inline-block;
+  color: #7ed22c;
+}
+
+.dark-dracula {
+  background-color: #1e1f29;
+  color: #fff
+}
+
+.dark-dracula .link {
+  color: #01d000;
+}
+
+.dark-dracula-prompt {
+  display: inline-block;
+  color: #5ca5e1;
+}
+
+.solar {
+  background-color: #fdf6e3;
+  color: #98a4a3
+}
+
+.solar .link {
+  color: #73951d;
+}
+
+.solar-prompt {
+  display: inline-block;
+  color: #2697fb;
 }
 
