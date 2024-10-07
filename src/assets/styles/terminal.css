@@ -36,6 +36,7 @@
   margin: 0;
   padding: 0 0 0 8.5px;
   /* background-color: blueviolet; */
+  width: 42%;
 }
 
 .terminal textarea:focus, input:focus{
