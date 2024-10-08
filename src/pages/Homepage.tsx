@@ -16,7 +16,7 @@ function Homepage() {
                     <p className='py-8 text-2xl text-sky-600'>
                         Software Engineer
                     </p>
-                    <div className="grid grid-cols-5 gap-20 text-lg pt-6 pb-20">
+                    <div className="grid sm:grid-cols-1 gap-3 md:grid-cols-5 md:gap-20 text-lg pt-6 pb-20 ">
                         <a className="hover:text-sky-600" href="https://www.linkedin.com/in/tu-nguyen/">&lt;linkedin&gt;</a>
                         <a className="hover:text-sky-600" href="https://github.com/tu-nguyen">&lt;github&gt;</a>
                         <a className="hover:text-sky-600" href="mailto:tu.t.nguyen93@gmail.com">&lt;email&gt;</a>
@@ -25,7 +25,7 @@ function Homepage() {
                     </div>
 
                     
-                    <div className="grid grid-cols-3 gap-3 text-lg pt-10">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-3 text-lg pt-10">
                         <div>
                             <a href="./v1/index.html"><h4 className="text-white"><strong className="hover:text-sky-600" >click here</strong> to view v1</h4></a>
                         </div>
@@ -37,7 +37,7 @@ function Homepage() {
                         </div>
                     </div>
                 </div>
-                <h4 className='my-4 text-white text-md absolute bottom-0'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>)</h4> <br />
+                <p className='my-4 text-white text-sm text-center absolute bottom-0'>Portfolio under construction (Updating to use <strong>React</strong> + <strong>Vite</strong> + <strong>Tailwind</strong>)</p> <br />
             </div>
         </section>
         </>
