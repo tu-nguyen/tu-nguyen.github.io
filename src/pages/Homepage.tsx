@@ -33,7 +33,7 @@ function Homepage() {
                             <Link to="/v2"><h4 className="text-white"><strong className="hover:text-sky-600" >click here</strong> to view v2</h4></Link>
                         </div>
                         <div>
-                            <a href="https://tu-nguyen.github.io/terminal"><h4 className="text-sky-600" ><strong className="text-sky-600">click here</strong> to view terminal</h4></a>
+                            <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600" ><strong className="text-sky-600">click here</strong> to view terminal</h4></a>
                         </div>
                     </div>
                 </div>
