@@ -25,10 +25,7 @@ function Homepage() {
                     </div>
 
                     
-                    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-3 text-lg pt-10">
-                        <div>
-                            <a href="./v1/index.html"><h4 className="text-white"><strong className="hover:text-sky-600" >click here</strong> to view v1</h4></a>
-                        </div>
+                    <div className="grid sm:grid-cols-1 md:grid-cols-2 text-lg pt-10">
                         <div>
                             <Link to="/v2"><h4 className="text-white"><strong className="hover:text-sky-600" >click here</strong> to view v2</h4></Link>
                         </div>
