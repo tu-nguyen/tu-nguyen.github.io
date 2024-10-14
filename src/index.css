@@ -3,24 +3,44 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      scroll-behavior: smooth;
-    }
-
-    * {
-        background-color: black;
-    }
+  html {
+    scroll-behavior: smooth;
   }
 
-  .projects .row .button-group button {
-    color: white;
-    background: transparent;
-    border: none;
-    text-transform: uppercase;
-    margin: 2rem 3rem 4rem 3rem;
+  * {
+    background-color: black;
+  }
 }
 
-.projects .row .button-group .active {
+.projects .button {
+  color: white;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  margin: 1.5rem;
+}
+
+.projects .button:hover {
+  color: #8CF;
+}
+
+.projects .active,
+.button.is-checked {
   color: rgb(14 165 233);
   font-weight: bold;
 }
+
+/* .filter-item { 
+  width: 360px; 
+  height: 360px; 
+  padding: 10px 10px 10px 15px;
+  overflow: hidden;
+} */
+
+/* .filter-item img { 
+  width: auto;
+  height: auto;
+  object-fit: cover;
+
+} */
+/* .filter-item--width2 { width: 50%; } */
