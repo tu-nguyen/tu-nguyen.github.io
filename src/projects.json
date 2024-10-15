@@ -2,7 +2,7 @@
     {
         "id": 9,
         "title": "terminal-portfolio",
-        "description": "(this) Terminal Portfolio website made with React, TypeScript, Vite, and Tailwind CSS.",
+        "description": "Terminal Portfolio website made with React, TypeScript, Vite, and Tailwind CSS.",
         "technologiesUsed": ["React", "TypeScript", "Vite", "TailwindCSS"],
         "imageLink": "./assets/images/projects/9/project9.png",
         "previewImageLink": "./assets/images/projects/9/project9.png",

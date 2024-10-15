@@ -8,7 +8,6 @@ import Isotope from 'isotope-layout'
 
 
 const Projects = () => {
-
     // init one ref to store the future isotope object
     const isotope = React.useRef()
     // store the filter keyword in a state
