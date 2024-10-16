@@ -37,15 +37,15 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <h2 className="py-4 font-bold text-xl flex items-center justify-center mx-auto">
+          <h2 className="py-2 font-bold text-xl flex items-center justify-center mx-auto">
             {project.title}
           </h2>
           <img className="mx-auto h-auto w-80 object-fill rounded-t-xl" src={PreviewImg({project})}/>
           <div className="p-3 text-lg flex items-center justify-center h-auto">
-            <p className="p-5">{project.description}</p>
+            <p className="px-3">{project.description}</p>
           </div>
 
-          <div className="flex items-center justify-center pt-6">
+          <div className="flex items-center justify-center">
             <div className="p-6 hover:text-sky-600"><a href={project.githubLink} target="blank">&lt;code&gt;</a></div>
             <div className="p-6">{Demo({project})}</div>
         </div>
