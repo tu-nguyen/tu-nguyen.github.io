@@ -57,7 +57,7 @@ const About = () => {
             </div>
         </div>
 
-        <h1 className='text-3xl pt-6 font-extrabold text-center sm:text-6xl'>About me</h1>
+        <h1 className='text-white text-3xl pt-6 font-extrabold text-center sm:text-6xl'>About me</h1>
 
         <span className='hr'></span>
         <div className='container m-auto'>

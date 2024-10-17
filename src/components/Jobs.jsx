@@ -6,7 +6,7 @@ import jobs from '../jobs.json'
 const Jobs = () => {
   return (
     <section id='experience' className="pt-12 sm:pt-24 md:pt-24 lg:pt-24">
-        <h2 className="text-3xl pt-6 font-extrabold text-center sm:text-6xl">
+        <h2 className="text-white text-3xl pt-6 font-extrabold text-center sm:text-6xl">
           Experience
         </h2>
         <span className='hr'></span>

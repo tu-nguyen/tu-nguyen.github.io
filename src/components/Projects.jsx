@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section id= 'projects' className='pt-12 sm:pt-24 md:pt-24 lg:pt-24'>
-      <h2 className='text-3xl pt-6 font-extrabold text-center sm:text-6xl'>
+      <h2 className='text-white text-3xl pt-6 font-extrabold text-center sm:text-6xl'>
         Projects
       </h2>
       <span className='hr'></span>
