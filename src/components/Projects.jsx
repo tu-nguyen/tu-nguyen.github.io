@@ -41,30 +41,24 @@ const Projects = () => {
       <span className='hr'></span>
 
       <div className="min-h-[75vh] sm:min-h-[60vh]">
-
-      <div className="">
-        <div id="filters" className="p-6 text-white text-center text-xl button-group">
-          <button type="button" className={`button ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>
-          <button type="button" className={`button ${filterKey=='python' ? 'active' : ''}`} onClick={handleFilterKeyChange('python')}>Python</button>
-          <button type="button" className={`button ${filterKey=='django' ? 'active' : ''}`} onClick={handleFilterKeyChange('django')}>Django</button>
-          <button type="button" className={`button ${filterKey=='react' ? 'active' : ''}`} onClick={handleFilterKeyChange('react')}>React</button>
-          <button type="button" className={`button ${filterKey=='java' ? 'active' : ''}`} onClick={handleFilterKeyChange('java')}>Java</button>
-          <button type="button" className={`button ${filterKey=='upcoming' ? 'active' : ''}`} onClick={handleFilterKeyChange('upcoming')}>Upcoming</button>
-          <button type="button" className={`button ${filterKey=='other' ? 'active' : ''}`} onClick={handleFilterKeyChange('other')}>Other</button>
+        <div className="">
+          <div id="filters" className="p-6 text-white text-center text-xl button-group">
+            <button type="button" className={`button ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>
+            <button type="button" className={`button ${filterKey=='python' ? 'active' : ''}`} onClick={handleFilterKeyChange('python')}>Python</button>
+            <button type="button" className={`button ${filterKey=='django' ? 'active' : ''}`} onClick={handleFilterKeyChange('django')}>Django</button>
+            <button type="button" className={`button ${filterKey=='react' ? 'active' : ''}`} onClick={handleFilterKeyChange('react')}>React</button>
+            <button type="button" className={`button ${filterKey=='java' ? 'active' : ''}`} onClick={handleFilterKeyChange('java')}>Java</button>
+            <button type="button" className={`button ${filterKey=='upcoming' ? 'active' : ''}`} onClick={handleFilterKeyChange('upcoming')}>Upcoming</button>
+            <button type="button" className={`button ${filterKey=='other' ? 'active' : ''}`} onClick={handleFilterKeyChange('other')}>Other</button>
+          </div>
+        </div>
+        
+        <div className="filter-container px-6 md:px-20 lg:px-36 xl:px-24">
+              {projects.map((project) => (
+              <Project key={project.id} project={ project }/>
+              ))}
         </div>
       </div>
-      
-
-      <div className="filter-container px-6 md:px-36">
-            {projects.map((project) => (
-            <Project key={project.id} project={ project }/>
-            ))}
-      </div>
-
-      </div>
-
-      
-      
     </section>
   )
 }

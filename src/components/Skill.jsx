@@ -8,7 +8,7 @@ const Skill = ({ skill }) => {
   return (
     <div>
       <div>
-        <h4 className='text-center my-3 text-xl font-bold'>
+        <h4 className='text-center my-6 sm:my-3 text-xl font-bold'>
           {skill.title}
         </h4>
       </div>
