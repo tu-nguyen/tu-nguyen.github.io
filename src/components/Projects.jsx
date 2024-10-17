@@ -34,14 +34,16 @@ const Projects = () => {
 
 
   return (
-    <section id= 'projects' className='bg-black-700 px-4 pt-36 projects min-h-screen'>
-      <h2 className='text-2xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pb-6 pt-3'>
+    <section id= 'projects' className='pt-12 sm:pt-24 md:pt-24 lg:pt-24'>
+      <h2 className='text-3xl pt-6 font-extrabold text-center sm:text-6xl'>
         Projects
       </h2>
       <span className='hr'></span>
 
+      <div className="min-h-[75vh] sm:min-h-[60vh]">
+
       <div className="">
-        <div id="filters" className="my-6 text-white pb-2 text-center button-group">
+        <div id="filters" className="p-6 text-white text-center text-xl button-group">
           <button type="button" className={`button ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>
           <button type="button" className={`button ${filterKey=='python' ? 'active' : ''}`} onClick={handleFilterKeyChange('python')}>Python</button>
           <button type="button" className={`button ${filterKey=='django' ? 'active' : ''}`} onClick={handleFilterKeyChange('django')}>Django</button>
@@ -51,13 +53,18 @@ const Projects = () => {
           <button type="button" className={`button ${filterKey=='other' ? 'active' : ''}`} onClick={handleFilterKeyChange('other')}>Other</button>
         </div>
       </div>
+      
 
-      <div className="h-fit mx-auto grid grid-cols-1 justify-items-center justify-center  lg:grid-cols-4 px-3 md:grid-cols-3 gap-y-20 gap-x-14 mt-10 mb-5 filter-container">
+      <div className="filter-container px-6 md:px-36">
             {projects.map((project) => (
             <Project key={project.id} project={ project }/>
             ))}
       </div>
 
+      </div>
+
+      
+      
     </section>
   )
 }

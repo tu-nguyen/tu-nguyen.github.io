@@ -5,10 +5,10 @@ import skills from '../skills.json'
 
 const About = () => {
   return (
-    <section id='about' className='bg-black-700 px-4 pt-36'>
+    <section id='about' className='py-12 sm:py-24 md:py-24 lg:py-24'>
         
         <div className='static'>
-            <div className='absolute h-screen left-0 left-0 z-0 pt-32'>
+            <div className='absolute h-screen left-0 z-0 sm:pt-12 md:pt-32'>
                 <ul className="">
                     <li className='pl-5 py-6'>
                         <a href="https://www.linkedin.com/in/tu-nguyen/" target="_blank" title="LinkedIn">
@@ -57,10 +57,39 @@ const About = () => {
             </div>
         </div>
 
-        <h1 className='text-2xl font-extrabold text-white sm:text-5xl md:text-6xl text-center pt-3 sm:pb-6'>About me</h1>
+        <h1 className='text-3xl pt-6 font-extrabold text-center sm:text-6xl'>About me</h1>
 
         <span className='hr'></span>
-        <div className='container-xl lg:container m-auto'>
+        <div className='container m-auto'>
+            <div className="grid grid-cols-1 px-6 rounded-lg sm:grid-cols-2 sm:px-12 md:px-36 items-center">
+                <div className="">
+                    <img className='scale-50 sm:scale-75 rounded-full' src={profile} alt="" />
+                </div>
+
+                <div className="">
+                    <h2 className='text-white text-2xl font-bold text-center sm:text-left'>Hello, World!</h2>
+                    <p className='text-white text-justify'>
+                        I am an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. Proficient in a variety of languages and frameworks including <strong>Python</strong>, <strong>Django</strong>, <strong>React.JS</strong>, and <strong>Node.JS</strong>, with a strong foundation in cloud technologies like <strong>AWS</strong>, <strong>Docker</strong>, and <strong>Kubernetes</strong>.
+                    </p>
+                </div>
+
+                <div className='sm:col-span-2'>
+                    <h3 className='text-white text-2xl font-bold text-center pt-6 md:pt-3'>Skills</h3>
+                    <div className='grid grid-cols-1 md:grid-cols-4 text-white m-0 sm:grid-cols-4'>
+                        {skills.map((skill) => (
+                            <Skill key={skill.id} skill={ skill }/>
+                        ))}
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+        {/* <div className='container-xl lg:container m-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 px-4 rounded-lg sm:pt-6'>
                 <div className='px-4 rounded-lg shadow-md self-center items-center'>
                     <div className='mx-auto p-6 mb-6 rounded-lg shadow-md max-w-sm sm:mb-0'>
@@ -87,7 +116,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
+
     </section>
   )
 }

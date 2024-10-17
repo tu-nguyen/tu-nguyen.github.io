@@ -12,6 +12,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@heroicons/react": "^2.1.5",
     "@types/isotope-layout": "3.0.9",
     "isotope-fit-columns": "^1.1.4",
     "isotope-layout": "^3.0.6",

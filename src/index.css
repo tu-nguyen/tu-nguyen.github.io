@@ -8,8 +8,13 @@
   }
 
   * {
-    background-color: black;
+    /* background-color: black; */
+    /* border:1px solid red; */
   }
+}
+
+section {
+  background-color: black;
 }
 
 .projects .button {
@@ -20,13 +25,13 @@
   margin: 1.5rem;
 }
 
-.projects .button:hover {
-  color: #8CF;
+.button:hover {
+  color: rgb(125 211 252);
 }
 
-.projects .active,
+.active,
 .button.is-checked {
-  color: rgb(14 165 233);
+  color: rgb(2 132 199);
   font-weight: bold;
 }
 

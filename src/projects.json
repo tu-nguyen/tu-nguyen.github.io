@@ -77,7 +77,7 @@
         "id": 3,
         "title": "Boston Crime EDA",
         "description": "Basic EDA with Boston's crime data from 2012 - 2015.",
-        "technologiesUsed": ["Python", "numpy", "pandas", "matplotlib", "seaborn", "Jupyter Notebook", "Data Science"],
+        "technologiesUsed": ["Python", "numpy", "pandas", "matplotlib", "seaborn", "Jupyter Notebook", "Data Science", "Other"],
         "imageLink": "./assets/images/projects/3/project3.png",
         "previewImageLink": "./assets/images/projects/3/project3preview.png",
         "githubLink": "https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015",

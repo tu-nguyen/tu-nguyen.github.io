@@ -37,11 +37,11 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <h2 className="py-2 font-bold text-xl flex items-center justify-center mx-auto">
+          <h2 className="py-3 sm:py-6 font-bold text-xl flex justify-center">
             {project.title}
           </h2>
-          <img className="mx-auto h-auto w-80 object-fill rounded-t-xl" src={PreviewImg({project})}/>
-          <div className="p-3 text-lg flex items-center justify-center h-auto">
+          <img className="mx-auto h-62 sm:h-72 w-auto object-fill rounded-t-xl" src={PreviewImg({project})}/>
+          <div className="p-3 text-md flex justify-center text-center h-auto">
             <p className="px-3">{project.description}</p>
           </div>
 
@@ -55,35 +55,3 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
   ) : null;
 
 export default ProjectModal
-
-
-// const ProjectModal = ({project, closeModal }) => {
-
-//     return (
-//         <div className={styles.modalBack} onClick={closeModal}>
-//             <div className={styles.modalContainer}>
-//                 <div>
-
-//                     <h2>
-//                         {project.title}
-//                     </h2>
-
-//                     <p>
-//                         {project.description}
-//                     </p>
-
-//                 </div>
-
-                
-
-
-//             </div>
-            
-
-
-//         </div>
-//     )
-
-// }
-
-// export default ProjectModal
