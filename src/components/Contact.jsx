@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <section id='contact' className='pt-12 sm:pt-24 md:pt-24 lg:pt-24 min-h-screen lg:min-h-[70vh]'>            
+        <section id='contact' className='pt-12 sm:pt-24 md:pt-24 md:pb-24 lg:pt-24 min-h-screen lg:min-h-[80vh]'>            
             <h1 className="text-white text-3xl pt-6 font-extrabold text-center sm:text-6xl">Contact</h1>
             <span className="hr"></span>
 
@@ -12,7 +12,7 @@ const Contact = () => {
                     <p>Send me an e-mail at <a href="mailto:tu.t.nguyen93@gmail.com">tu.t.nguyen93@gmail.com</a> and I will reply to you soon!</p>
                 </div>
 
-                <div className="text-white ">
+                <div className="text-white">
                     <div className="">
                         <a href="mailto:tu.t.nguyen93@gmail.com" className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-5 rounded">Say hello!</a>
                     </div>
