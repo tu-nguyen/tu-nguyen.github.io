@@ -63,7 +63,7 @@ const About = () => {
             
             <div className='container m-auto'>
                 <div className="grid grid-cols-1 px-6 rounded-lg sm:grid-cols-2 sm:px-12 md:px-36 items-center">
-                    <div className="">
+                    <div className="sm:pt-6">
                         <img className='scale-0 sm:scale-75 rounded-full' src={profile} alt="" />
                     </div>
 
