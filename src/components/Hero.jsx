@@ -22,7 +22,7 @@ const Hero = ({
               <a className="hover:text-sky-600" href="https://github.com/tu-nguyen">&lt;github&gt;</a>
               <a className="hover:text-sky-600" href="mailto:tu.t.nguyen93@gmail.com">&lt;email&gt;</a>
               <a className="hover:text-sky-600" href="https://calendly.com/tu-t-nguyen/quick-chat">&lt;meet&gt;</a>
-              <a className="text-sky-600" href="./Tu Nguyen Resume.pdf">&lt;resume&gt;</a>
+              <a className="text-sky-600 hover:text-sky-700" href="./Tu Nguyen Resume.pdf">&lt;resume&gt;</a>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ const Hero = ({
             </div>
 
             <div>
-                <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600"><strong className="text-sky-600">click here</strong> to view terminal</h4></a>
+                <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600"><strong className="text-sky-600 hover:text-sky-700">click here</strong> to view terminal</h4></a>
             </div>
           </div>
         </div>
