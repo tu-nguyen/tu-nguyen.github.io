@@ -27,6 +27,18 @@ function classNames(...classes) {
 
 const Navbar = () => {
   const btnRef = useRef(null);
+  const [socialTop, setSocialTop] = useState(false);
+
+  const changeSocialTop = e => {
+    window.scrollY >= 200 ? setSocialTop(true) : setSocialTop(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeSocialTop);
+      return () => {
+          window.removeEventListener('scroll', changeSocialTop);
+      };
+    }, []);
   
   const onClick = () => {
     console.log("clicked")
@@ -41,7 +53,7 @@ const Navbar = () => {
   };
 
   return (
-    <Disclosure as="nav" className="sticky top-0 -mt-16 sm:-mt-20 z-50 bg-black">
+    <Disclosure as="nav" className="sticky top-0 -mt-20 z-50 bg-black">
       <div className='mx-auto max-w-7xl px-3 sm:px-6 sm:lg:px-8'>
         <div className='relative flex h-16 sm:h-20 items-center justify-between'>
 
@@ -49,6 +61,7 @@ const Navbar = () => {
           <Menu as="div" className="absolute right-0 items-center sm:hidden">
             <div>
               <MenuButton className="relative flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                
                 <span className="absolute -inset-1.5" />
                 <span className="sr-only">Open social menu</span>
                 <img
@@ -60,7 +73,7 @@ const Navbar = () => {
             </div>
             <MenuItems
               transition
-              className="absolute right-0 z-10 mt-62 w-32 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+              className={`absolute right-0 z-10 bg-black text-white ${socialTop ? 'mt-62' : '-mt-72'} w-32 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in`}
             >
               {connect.map((item) => (
                 <MenuItem key={item.name}>

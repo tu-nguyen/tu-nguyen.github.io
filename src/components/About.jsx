@@ -52,7 +52,7 @@ const About = () => {
                             
                             href={item.href}
                             > 
-                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg ${item.res ? 'bg-red-600' : undefined}`}>
+                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg text-white hover:text-sky-600 ${item.res ? 'text-red-900 hover:text-red-700' : undefined}`}>
                                     <ion-icon name={item.icon} size="large"></ion-icon>
                                 </div>
                             </a>
