@@ -67,11 +67,11 @@ const About = () => {
                         <img className='scale-0 sm:scale-75 rounded-full' src={profile} alt="" />
                     </div>
 
-                    <div className="-mt-64 sm:mt-0 px-3 sm:p-6">
+                    <div className="text-white -mt-64 sm:mt-0 px-3 sm:p-6">
                         <br />
-                        <h2 className='text-white text-2xl font-bold text-center sm:text-left'>Hello, World!</h2>
+                        <h2 className='text-2xl font-bold text-center sm:text-left'>Hello, World!</h2>
                         <br />
-                        <p className='text-white'>
+                        <p>
                             I am an experienced <strong>Software Engineer</strong> based in Boston, specializing in automation, optimization, and <strong>full-stack development</strong>. 
                         </p>
                         <br />
