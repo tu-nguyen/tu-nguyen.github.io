@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <section id='contact' className='pt-12 sm:pt-24 md:pt-24 md:pb-24 lg:pt-24 min-h-screen lg:min-h-[80vh]'>            
+        <section id='contact' className='pt-12 sm:pt-24 md:pt-24 md:pb-24 lg:pt-24 min-h-screen lg:min-h-[60vh]'>            
             <h1 className="text-white text-3xl pt-6 font-extrabold text-center sm:text-6xl">Contact</h1>
             <span className="hr"></span>
 

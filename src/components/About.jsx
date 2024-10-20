@@ -1,15 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import profile from '../assets/images/profile.jpg'
 import Skill from './Skill'
-import skills from '../skills.json'
+import skills from '../data/skills.json'
+import socials from '../data/socials.json'
 
-const connect = [
-    { name: 'linkedin', href: 'https://www.linkedin.com/in/tu-nguyen/', icon: "logo-linkedin", res: false },
-    { name: 'github', href: 'https://github.com/tu-nguyen', icon: "logo-github", res: false },
-    { name: 'email', href: 'mailto:tu.t.nguyen93@gmail.com', icon: "mail-outline", res: false },
-    { name: 'meet', href: 'https://calendly.com/tu-t-nguyen/quick-chat', icon: "calendar-outline", res: false },
-    { name: 'resume', href: '#', icon: "document-text-outline", res: true },
-]
 
 const About = () => {
     const [navTop, setNavTop] = useState(false);
@@ -27,7 +21,7 @@ const About = () => {
     }, []);
 
     const changeNavTop2 = e => {
-        window.scrollY >= 300 ? setNavTop2(true) : setNavTop2(false);
+        window.scrollY >= 100 ? setNavTop2(true) : setNavTop2(false);
     };
 
     useEffect(() => {
@@ -44,7 +38,7 @@ const About = () => {
                 
                 <div className={`transition-opacity ease-in duration-700 ${navTop ? "opacity-100" : "opacity-0"}`}>
                     <div className="">
-                        {connect.map((item) => (
+                        {socials.map((item) => (
                             <div key={item.name} {...(navTop2 ? { className: 'invisible sm:visible' } : {className: 'hidden'})}>
                                 <a href={item.href}> 
                                     <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg ${item.res ? 'text-sky-600 hover:text-sky-700' : 'text-white hover:text-sky-600'}`}>
@@ -64,7 +58,7 @@ const About = () => {
             <div className='container m-auto'>
                 <div className="grid grid-cols-1 px-6 rounded-lg sm:grid-cols-2 sm:px-12 md:px-36 items-center">
                     <div className="sm:pt-6">
-                        <img className='scale-0 sm:scale-75 rounded-full' src={profile} alt="" />
+                        <img className='scale-0 rounded-full sm:scale-75 lg:scale-50' src={profile} alt="" />
                     </div>
 
                     <div className="text-white -mt-64 sm:mt-0 px-3 sm:p-6">

@@ -1,0 +1,7 @@
+[
+    { "name": "linkedin", "href": "https://www.linkedin.com/in/tu-nguyen/", "icon": "logo-linkedin", "res": false },
+    { "name": "github", "href": "https://github.com/tu-nguyen", "icon": "logo-github", "res": false },
+    { "name": "email", "href": "mailto:tu.t.nguyen93@gmail.com", "icon": "mail-outline", "res": false },
+    { "name": "meet", "href": "https://calendly.com/tu-t-nguyen/quick-chat", "icon": "calendar-outline", "res": false },
+    { "name": "resume", "href": "../Tu Nguyen Resume.pdf", "icon": "document-text-outline", "res": true }
+]

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import socials from '../data/socials.json'
 
 const Hero = ({
     title = 'Tu Nguyen',
@@ -18,11 +19,13 @@ const Hero = ({
         </div>
         <div>
           <div className="grid place-items-center sm:grid-cols-5 md:gap-3  md:gap-20 text-lg md:pt-6 md:pb-20">
-              <a className="hover:text-sky-600" href="https://www.linkedin.com/in/tu-nguyen/">&lt;linkedin&gt;</a>
-              <a className="hover:text-sky-600" href="https://github.com/tu-nguyen">&lt;github&gt;</a>
-              <a className="hover:text-sky-600" href="mailto:tu.t.nguyen93@gmail.com">&lt;email&gt;</a>
-              <a className="hover:text-sky-600" href="https://calendly.com/tu-t-nguyen/quick-chat">&lt;meet&gt;</a>
-              <a className="text-sky-600 hover:text-sky-700" href="./Tu Nguyen Resume.pdf">&lt;resume&gt;</a>
+              {socials.map((item) => (
+                  <div key={item.name}>
+                      <a href={item.href} className={`${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'}`}>
+                          &lt;{item.name}&gt;
+                      </a>
+                  </div>
+              ))}
           </div>
         </div>
 

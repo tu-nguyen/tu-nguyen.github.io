@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../assets/images/logo.png'
 import profile from '../assets/images/profile.jpg'
+import socials from '../data/socials.json'
 
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, LightBulbIcon } from '@heroicons/react/24/outline'
@@ -11,14 +12,6 @@ const navigation = [
   { name: 'experience', href: '#experience', current: false },
   { name: 'projects', href: '#projects', current: false },
   { name: 'contact', href: '#contact', current: false },
-]
-
-const connect = [
-  { name: 'linkedin', href: 'https://www.linkedin.com/in/tu-nguyen/', icon: "logo-linkedin", res: false },
-  { name: 'github', href: 'https://github.com/tu-nguyen', icon: "logo-github", res: false },
-  { name: 'email', href: 'mailto:tu.t.nguyen93@gmail.com', icon: "mail-outline", res: false },
-  { name: 'meet', href: 'https://calendly.com/tu-t-nguyen/quick-chat', icon: "calendar-outline", res: false },
-  { name: 'resume', href: '#', icon: "document-text-outline", res: true },
 ]
 
 function classNames(...classes) {
@@ -75,7 +68,7 @@ const Navbar = () => {
               transition
               className={`absolute right-0 z-10 bg-black text-white ${socialTop ? 'mt-62' : '-mt-72'} w-32 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in`}
             >
-              {connect.map((item) => (
+              {socials.map((item) => (
                 <MenuItem key={item.name}>
                   <a href={item.href}> 
                     <div className={`grid grid-cols-2 px-6 py-3 text-sm text-white data-[focus]:bg-gray-100 text-gray-300 hover:bg-gray-700 hover:text-white ${item.res ? 'bg-red-600' : undefined}`}>

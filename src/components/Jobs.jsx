@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Job from './Job'
-import jobs from '../jobs.json'
+import jobs from '../data/jobs.json'
 
 const Jobs = () => {
   return (
