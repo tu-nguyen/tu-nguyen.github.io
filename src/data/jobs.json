@@ -1,13 +1,13 @@
 [
     {
         "id": 3,
-        "title": "Software Engineer",
+        "title": "Software Engineer II",
         "company": "Perch",
         "link": "https://www.perchhq.com/",
         "location": "Boston, MA",
         "description": "Wrote clean, well tested and maintainable code for the cloud-based internal system, mainly working with Python, Django, and PostgreSQL. Integrated 3rd party APIs and extensive use of Django REST APIs framework.",
         "date": "Jun 2021 - Mar 2024",
-        "skills": ["Python", "Django", "AWS", "REST"]
+        "skills": ["Python", "Django", "SQL", "AWS", "ESTful APIs", "Back-End Web Development"]
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "location": "Quincy, MA",
         "description": "Monitored the administration and upkeep of a centralized SQL Server and Oracle Database supporting ordering, inventory, and forecasting systems for 750+ stores across three prominent supermarket brands. As a side project, I created internal tools/applications using Python, still used today by the team.",
         "date": "Jul 2018 - Jun 2021",
-        "skills": ["SQL", "Excel", "Python"]
+        "skills": ["SQL", "Excel", "Python", "Data Integrity", "Software Documentation"]
     },
     {
         "id": 1,
@@ -27,6 +27,6 @@
         "location": "Boston, MA",
         "description": "Managed a team of three to merchandise products, manage store inventory, and order stock. Trained and supervised new associates and managers on store procedures and policies.",
         "date": "Aug 2011 - Jul 2019",
-        "skills": ["Customer Service", "Cash Handling", "Photo"]
+        "skills": ["Customer Service", "Cash Handling", "Photo", "Training"]
     }
 ]

@@ -39,7 +39,7 @@ const Projects = () => {
       </h2>
       <span className='hr'></span>
 
-      <div className="min-h-[75vh] sm:min-h-[60vh]">
+      <div className="sm:pl-6 min-h-[75vh] sm:min-h-[60vh]">
         <div className="">
           <div id="filters" className="p-6 text-white text-center text-xl button-group">
             <button type="button" className={`button ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>

@@ -11,7 +11,7 @@ const Jobs = () => {
         </h2>
         <span className='hr'></span>
         <div className="container m-auto">
-            <div className="grid grid-cols-1 md:grid-cols-1 px-6 sm:px-12 md:px-36">
+            <div className="grid px-6 sm:pt-12 pt-6 sm:px-12 md:px-36">
                 {jobs.map((job) => (
                 <Job key={job.id} job={ job }/>
                 ))}
