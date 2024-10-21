@@ -7,7 +7,7 @@
         "location": "Boston, MA",
         "description": "Wrote clean, well tested and maintainable code for the cloud-based internal system, mainly working with Python, Django, and PostgreSQL. Integrated 3rd party APIs and extensive use of Django REST APIs framework.",
         "date": "Jun 2021 - Mar 2024",
-        "skills": ["Python", "Django", "SQL", "AWS", "ESTful APIs", "Back-End Web Development"]
+        "skills": ["Python", "Django", "SQL", "AWS", "RESTful APIs", "Back-End Web Development"]
     },
     {
         "id": 2,
