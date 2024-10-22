@@ -36,7 +36,7 @@ const About = () => {
             <div className="z-0  fixed top-0 left-0 w-28 h-screen grid place-items-center">
                 {/* start of socials */}
                 
-                <div className={`transition-opacity ease-in duration-700 ${navTop ? "opacity-100" : "opacity-0"}`}>
+                <div className={`transition-opacity ease-in duration-100 ${navTop ? "opacity-100" : "opacity-0"}`}>
                     <div className="">
                         {socials.map((item) => (
                             <div key={item.name} {...(navTop2 ? { className: 'invisible sm:visible' } : {className: 'hidden'})}>

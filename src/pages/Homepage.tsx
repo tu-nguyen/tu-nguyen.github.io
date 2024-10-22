@@ -6,6 +6,7 @@ import Jobs from '../components/Jobs';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
+import Skills from '../components/Skills';
 
 
 function Homepage() {
@@ -14,6 +15,7 @@ function Homepage() {
           <Hero />
           <Navbar /> 
           <About />
+          {/* <Skills /> */}
           <Jobs />
           <Projects />
           <Contact />
