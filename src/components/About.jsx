@@ -33,7 +33,7 @@ const About = () => {
     
     return (
         <section id='about' className='py-12 sm:py-24 md:py-24 lg:py-24'>
-            <div className="z-0  fixed top-0 left-0 w-28 h-screen grid place-items-center">
+            <div className="z-40 fixed top-0 left-0 w-28 h-screen grid place-items-center">
                 {/* start of socials */}
                 
                 <div className={`transition-opacity ease-in duration-100 ${navTop ? "opacity-100" : "opacity-0"}`}>

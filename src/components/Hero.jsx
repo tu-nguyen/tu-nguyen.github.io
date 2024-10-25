@@ -7,7 +7,7 @@ const Hero = ({
     subtitle = 'Software Engineer'
 }) => {
   return (
-    <section className='h-screen grid place-items-center text-white z-50'>
+    <section className='h-screen grid place-items-center text-white z-50 bg-black'>
       <div className='mx-auto px-6 lg:px-8 flex flex-col items-center '>
         <div className='text-center'>
           <h1 className='text-4xl font-extrabold sm:text-5xl md:text-6xl'>
