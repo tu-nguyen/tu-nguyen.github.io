@@ -32,7 +32,7 @@ const About = () => {
     }, []);
     
     return (
-    <section id='about' className='py-12 sm:py-24 md:py-24 bg-neutral-900'>
+    <section id='about' className='py-6 sm:pb-0 md:pt-12 lg:pt-24 lg:pb-12 bg-neutral-900'>
 
         {/* start of socials */}
         <div className="z-40 fixed top-0 left-0 w-2 sm:w-9 md:w-28 min-h-screen grid place-items-center">
@@ -56,14 +56,18 @@ const About = () => {
         <span className='hr'></span>
         
         <div className='container m-auto'>
-            <div className="grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 md:px-6 items-center">
-                <div className="sm:p-3 md:pt-6 sm:-mt-24 md:mt-0">
-                    <img className='scale-0 rounded-full sm:scale-50 md:scale-[0.6]' src={profile} alt="" />
+            {/** grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 md:px-6 items-center*/}
+            <div className="relative overflow-hidden sm:-mt-12 xl:px-36">
+                {/** sm:p-3 md:pt-6 sm:-mt-24 md:mt-0*/}
+                <div className="profile-div sm:-mr-32 sm:-ml-24 sm:float-left">
+                    {/**sm:scale-50 md:scale-[0.6] */}
+                    <img className='scale-0 rounded-full sm:scale-50 lg:scale-[0.45] xl:scale-[0.4]' src={profile} alt="" />
                 </div>
 
-                <div className="text-white -mt-80 sm:-mt-36 md:mt-0 px-6 sm:mt-1 md:mt-6">
+                {/** -mt-80 sm:-mt-36 md:mt-0 px-6 sm:mt-1 md:mt-6*/}
+                <div className="text-white px-6 -mt-80 sm:-mt-0 xl:mt-12">
                     <br />
-                    <h2 className='text-2xl font-bold text-center sm:text-left text-sky-700'>Hello, World! I&apos;m Tu</h2>
+                    <h2 className='text-2xl sm:text-4xl font-bold text-center sm:text-left text-sky-700 sm:pt-32'>Hello, World! I&apos;m Tu</h2>
                     <br />
                     <p>
                         I am a Boston-based <strong className='text-sky-700'>Software Engineer</strong> with expertise in automation, optimization, and <strong className='text-sky-700'>full-stack web development</strong>, experienced in building projects from concept to production.
@@ -74,7 +78,7 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        I&apos;ve been interested in tinkering both software and hardware since the days of <strong className='text-sky-700'>LAMP</strong> stack, during a time when <strong className='text-sky-700'>Ubuntu</strong> use to mail physical disk for free upon request. This blend of hands-on curiosity and professional experience fuels my work today as I bring solutions from idea to implementation.
+                        I&apos;ve been interested in tinkering both software and hardware since the days of <strong className='text-sky-700'>LAMP</strong> stack, during a time when <strong className='text-sky-700'>Ubuntu</strong> used to mail physical disks for free upon request. This blend of hands-on curiosity and professional experience fuels my work today as I bring solutions from idea to implementation.
                     </p>
                 </div>
 
