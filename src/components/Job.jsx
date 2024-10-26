@@ -60,8 +60,8 @@ const Job = ({ job }) => {
   }
 
   return (
-    <div className="bg-black rounded-xl shadow-md">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-lg">
+    <div className="rounded-xl shadow-md">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-lg shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
             <JobCard job={job} />
         </div>
     </div>

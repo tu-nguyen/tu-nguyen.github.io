@@ -54,9 +54,7 @@ const Project = ({ project }) => {
         hide={toggle}
         project={project}
       />
-
         <div className={`py-6 w-74 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl filter-item ${tech_filter}`}> 
-        
           <div className="px-6">
             <img
               className="h-48 w-64 object-fit rounded-t-xl"

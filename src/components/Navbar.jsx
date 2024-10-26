@@ -9,7 +9,9 @@ import { Bars3Icon, BellIcon, XMarkIcon, LightBulbIcon } from '@heroicons/react/
 
 const navigation = [
   { name: 'about', href: '#about', current: false },
+  { name: 'skills', href: '#skills', current: false },
   { name: 'experience', href: '#experience', current: false },
+  // { name: 'education', href: '#education', current: false },
   { name: 'projects', href: '#projects', current: false },
   { name: 'contact', href: '#contact', current: false },
 ]
