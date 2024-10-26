@@ -52,12 +52,12 @@ const About = () => {
         </div> 
         {/* end of socials */}
         
-        <h1 className='text-white text-3xl pt-12 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-16'>About me</h1>
-        <span className='hr'></span>
+        <h1 className='text-white text-3xl pt-20 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-16'>About me</h1>
+        <hr className='w-48 h-1 mx-auto my-4 bg-sky-600 border-0 rounded md:mt-10 md:mb-1 dark:bg-sky-700'></hr>
         
         <div className='container m-auto'>
             {/** grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 md:px-6 items-center*/}
-            <div className="relative overflow-hidden sm:-mt-12 xl:px-36">
+            <div className="relative overflow-hidden -mt-20 sm:-mt-12 xl:px-36">
                 {/** sm:p-3 md:pt-6 sm:-mt-24 md:mt-0*/}
                 <div className="profile-div sm:-mr-32 sm:-ml-24 sm:float-left">
                     {/**sm:scale-50 md:scale-[0.6] */}
