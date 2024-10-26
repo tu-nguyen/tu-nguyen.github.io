@@ -35,8 +35,8 @@ const About = () => {
         <section id='about' className='py-12 sm:py-24 md:py-24 lg:py-24 bg-neutral-900'>
 
             {/* start of socials */}
-            <div className="z-40 fixed top-0 left-0 w-2 sm:w-28 min-h-screen grid place-items-center">
-                <div className={`w-2 sm:w-auto transition-opacity ease-in duration-100 ${navTop ? "opacity-100" : "opacity-0"}`}>
+            <div className="z-40 fixed top-0 left-0 w-2 sm:w-9 md:w-28 min-h-screen grid place-items-center">
+                <div className={`w-2 sm:w-9 md:w-auto transition-opacity ease-in duration-100 ${navTop ? "opacity-100" : "opacity-0"}`}>
                     <div className="">
                         {socials.map((item) => (
                             <div key={item.name} {...(navTop2 ? { className: 'invisible sm:visible' } : {className: 'hidden'})}>
@@ -56,12 +56,15 @@ const About = () => {
             <span className='hr'></span>
             
             <div className='container m-auto'>
-                <div className="grid grid-cols-1 px-3 rounded-lg sm:grid-cols-2 sm:px-6 md:px-12 items-center">
-                    <div className="sm:pt-6">
-                        <img className='scale-0 rounded-full sm:scale-[0.4] lg:scale-30' src={profile} alt="" />
+                <div className="grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 sm:px-6 md:px-12 items-center">
+                    <div className="sm:p-3 md:pt-6 sm:-mt-24 md:mt-0">
+                        {/** scale-0 rounded-full sm:scale-[0.4] md:scale-50 lg:scale-30*/}
+                        <img className='scale-0 rounded-full sm:scale-50 md:scale-[0.6]' src={profile} alt="" />
                     </div>
 
-                    <div className="text-white -mt-80 px-6 sm:mt-6">
+                    {/**text-white -mt-80 px-6 sm:mt-1 md:mt-6 */}
+
+                    <div className="text-white -mt-80 sm:-mt-36 md:mt-0 px-6 sm:mt-1 md:mt-6">
                         <br />
                         <h2 className='text-2xl font-bold text-center sm:text-left text-sky-700'>Hello, World! I&apos;m Tu</h2>
                         <br />
@@ -77,15 +80,6 @@ const About = () => {
                             I&apos;ve been interested in tinkering both software and hardware since the days of <strong className='text-sky-700'>LAMP</strong> stack, during a time when <strong className='text-sky-700'>Ubuntu</strong> use to mail physical disk for free upon request. This blend of hands-on curiosity and professional experience fuels my work today as I bring solutions from idea to implementation.
                         </p>
                     </div>
-
-                    {/* <div className='pt-3 sm:pt-6 sm:col-span-2'>
-                        <h3 className='text-white text-2xl font-bold text-center py-6 md:py-3'>Skills</h3>
-                        <div className='grid grid-cols-2 md:grid-cols-4 text-white sm:grid-cols-4'>
-                            {skills.map((skill) => (
-                                <Skill key={skill.id} skill={ skill }/>
-                            ))}
-                        </div>
-                    </div> */}
 
                 </div>
             </div>

@@ -41,8 +41,16 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
             {project.title}
           </h2>
           <img className="mx-auto h-62 sm:h-72 w-auto object-fill rounded-t-xl" src={PreviewImg({project})}/>
-          <div className="p-3 text-md flex justify-center text-center h-auto">
+          <div className="p-6 text-md flex justify-center text-center h-auto">
             <p className="px-3">{project.description}</p>
+          </div>
+
+          <div className="px-6 pt-4 pb-2">
+            {project.technologiesUsed.map((tech) => (
+              <span key={tech} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                {tech}
+              </span>
+            ))}
           </div>
 
           <div className="flex items-center justify-center">

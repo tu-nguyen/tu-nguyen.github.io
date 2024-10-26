@@ -73,7 +73,7 @@ const Navbar = () => {
               {socials.map((item) => (
                 <MenuItem key={item.name}>
                   <a href={item.href}> 
-                    <div className={`grid grid-cols-2 px-6 py-3 text-sm text-white data-[focus]:bg-gray-100 text-gray-300 hover:bg-gray-700 hover:text-white ${item.res ? 'bg-red-600' : undefined}`}>
+                    <div className={`grid grid-cols-2 px-6 py-3 text-sm text-white data-[focus]:bg-gray-100 text-gray-300 hover:bg-gray-700 hover:text-white ${item.res ? 'bg-sky-600 hover:bg-sky-700' : undefined}`}>
                       <ion-icon name={item.icon} size="small"></ion-icon>
                       {item.name}
                     </div> 
@@ -98,7 +98,7 @@ const Navbar = () => {
           {/* todo add logo */}
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <a href='#' className='flex flex-shrink-0 items-center'>
-              <span className="h-8 w-auto text-white text-xl font-bold uppercase">Tu</span>
+              <span className="h-8 w-auto text-white text-xl font-bold uppercase">&lt;Tu /&gt;</span>
             </a>
           </div>
 

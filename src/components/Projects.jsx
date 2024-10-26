@@ -61,7 +61,7 @@ const Projects = () => {
               <button type="button" className={`${button_style} ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>
             </div>
 
-            <div className="filter-container p-6 sm:pl-12">
+            <div className="filter-container p-6 sm:pb-12 sm:pl-12 md:pl-24">
                   {projects.map((project) => (
                   <Project key={project.id} project={ project }/>
                   ))}

@@ -16,7 +16,7 @@ const Skills = () => {
                     <div className="pt-6 sm:-mt-42 grid gap-6 grid-cols-1 px-3 sm:px-6 sm:grid-cols-2 md:grid-cols-3">
 
                         <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                            <div className='text-center pt-6'>
+                            <div className='text-center pt-6 skill-icon'>
                                 <ion-icon name="desktop-outline"></ion-icon>
                             </div>
                             <h3 className="min-h-max text-white text-2xl font-bold text-center m-6 pb-3 border-b-2 border-sky-600">Full-Stack Web Development</h3>
@@ -26,7 +26,7 @@ const Skills = () => {
                             
                         </div>
                         <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                            <div className='text-center pt-6'>
+                            <div className='text-center pt-6 skill-icon'>
                                 <ion-icon name="cog-outline"></ion-icon>
                             </div>
                             <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Automation, Testing, Pipeline</h3>
@@ -35,7 +35,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                            <div className='text-center pt-6'>
+                            <div className='text-center pt-6 skill-icon'>
                                 <ion-icon name="book-outline"></ion-icon>
                             </div>
                             <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Infinitely curious, Tech agnostic</h3>
