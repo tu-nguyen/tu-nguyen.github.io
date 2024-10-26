@@ -19,8 +19,8 @@ const Skills = () => {
                             <ion-icon name="desktop-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center m-6 pb-3 border-b-2 border-sky-600">Full-Stack Web Development</h3>
-                        <div className ="px-6 py-4 sm:p-3">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio hic nulla odit sed minima nostrum provident.</p>
+                        <div className ="px-6 py-4 sm:p-3 text-center">
+                            <p>Building responsive, efficient, and scalable applications from front to back, leveraging modern frameworks, RESTful APIs, and clean, maintainable code.</p>
                         </div>
                         
                     </div>
@@ -29,8 +29,8 @@ const Skills = () => {
                             <ion-icon name="cog-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Automation, Testing, Pipeline</h3>
-                        <div className ="px-6 py-4 sm:p-3">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio hic nulla odit sed minima nostrum provident.</p>
+                        <div className ="px-6 py-4 sm:p-3 text-center">
+                            <p>Dedicated to streamlining workflows—I&apos;ll gladly spend a week automating a task that takes only minutes, because efficiency is everything. Robust CI/CD pipelines ensure every release is fast and reliable.</p>
                         </div>
                     </div>
                     <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
@@ -38,8 +38,8 @@ const Skills = () => {
                             <ion-icon name="book-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Infinitely curious, Tech agnostic</h3>
-                        <div className ="px-6 py-4 sm:p-3">
-                            <p>I wont deny that I gravitate towards familiar technologies, and have biased to the tools, languages and frameworks I use</p>
+                        <div className ="px-6 py-4 sm:p-3 text-center">
+                            <p>Constantly exploring new technologies and adaptable to various tech stacks, driven by a passion for problem-solving and continuous learning.</p>
                         </div>
                     </div>
                 </div>

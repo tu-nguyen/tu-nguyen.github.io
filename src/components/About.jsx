@@ -56,7 +56,7 @@ const About = () => {
         <span className='hr'></span>
         
         <div className='container m-auto'>
-            <div className="grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 sm:px-6 md:px-12 items-center">
+            <div className="grid grid-cols-1 px-3 rounded-lg md:grid-cols-2 md:px-6 items-center">
                 <div className="sm:p-3 md:pt-6 sm:-mt-24 md:mt-0">
                     <img className='scale-0 rounded-full sm:scale-50 md:scale-[0.6]' src={profile} alt="" />
                 </div>
