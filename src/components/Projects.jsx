@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="container m-auto">
                 
                 <div className="sm:pt-6">
-                    <div id="filters" className="p-6 text-white text-center text-xl button-group">
+                    <div id="filters" className="p-6 text-center button-group">
                         <button type="button" className={`${button_style}  ${filterKey=='python' ? 'active' : ''}`} onClick={handleFilterKeyChange('python')}>Python</button>
                         <button type="button" className={`${button_style}  ${filterKey=='javascript' ? 'active' : ''}`} onClick={handleFilterKeyChange('javascript')}>JavaScript</button>
                         <button type="button" className={`${button_style}  ${filterKey=='java' ? 'active' : ''}`} onClick={handleFilterKeyChange('java')}>Java</button>
@@ -55,6 +55,11 @@ const Projects = () => {
                         <button type="button" className={`${button_style}  ${filterKey=='react' ? 'active' : ''}`} onClick={handleFilterKeyChange('react')}>React</button>
                         <button type="button" className={`${button_style}  ${filterKey=='nextjs' ? 'active' : ''}`} onClick={handleFilterKeyChange('nextjs')}>NextJS</button>
                         <button type="button" className={`${button_style}  ${filterKey=='nodejs' ? 'active' : ''}`} onClick={handleFilterKeyChange('nodejs')}>NodeJS</button>
+                        <br />
+                        {/* <button type="button" className={`${button_style}  ${filterKey=='web' ? 'active' : ''}`} onClick={handleFilterKeyChange('web')}>Web</button> */}
+                        {/* <button type="button" className={`${button_style}  ${filterKey=='mobile' ? 'active' : ''}`} onClick={handleFilterKeyChange('mobile')}>Mobile</button> */}
+                        {/* <button type="button" className={`${button_style}  ${filterKey=='app' ? 'active' : ''}`} onClick={handleFilterKeyChange('app')}>App</button> */}
+                        {/* <button type="button" className={`${button_style}  ${filterKey=='script' ? 'active' : ''}`} onClick={handleFilterKeyChange('script')}>Script</button> */}
                         <br />
                         <button type="button" className={`${button_style} ${filterKey=='*' ? 'active' : ''}`} onClick={handleFilterKeyChange('*')}>All</button>
                     </div>

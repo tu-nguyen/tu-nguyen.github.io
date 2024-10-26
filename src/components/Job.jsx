@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 
 const Job = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
-  const [isSmol, setIsSmol] = useState(false)
+  const [isSmol, setIsSmol] = useState(window.innerWidth < 720 ? true : false)
 
   const handleResize = () => {
     if (window.innerWidth < 720) {
@@ -90,7 +90,7 @@ const Job = ({ job }) => {
 
   return (
     <div className="rounded-xl shadow-md">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-lg shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+        <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 rounded-lg shadow-md rounded-xl ${isSmol ? '' : 'duration-500 hover:scale-105'} hover:shadow-xl`}>
             <JobCard job={job} />
         </div>
     </div>

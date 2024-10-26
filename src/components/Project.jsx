@@ -34,20 +34,20 @@ const Project = ({ project }) => {
         project={project}
         />
         
-        <div className={`py-6 w-auto shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl filter-item ${tech_filter}`}> 
-            <div className="px-6 sm:px-3">
+        <div className={`py-6  sm:w-auto shadow-md rounded-xl sm:duration-500 sm:hover:scale-105 hover:shadow-xl filter-item ${tech_filter}`}> 
+            <div className="flex flex-cols-2 flex-wrap sm:grid sm:grid-cols-1 px-6 sm:px-3">
                 <img
-                    className="h-48 w-64 object-fit rounded-t-xl"
+                    className="h-24 w-32 sm:h-48 sm:w-64 object-fit rounded-t-xl"
                     src={`${project.imageLink}`}
                     onClick={toggle}
                 />
 
-                <div className="px-6 pt-3 sm:px-3">
-                    <h2 className='text-white font-bold text-lg text-center' onClick={toggle}>
+                <div className="flex flex-col-reverse sm:flex-col px-3 sm:px-6 sm:pt-3 sm:px-3">
+                    <h2 className='text-white font-bold sm:text-lg text-center' onClick={toggle}>
                         {project.title}
                     </h2>
 
-                    <div className="py-6 flex justify-center gap-6">
+                    <div className="p-3 sm:py-6 flex sm:justify-center gap-6">
                         <div className="project-icon hover:text-sky-700">
                             <a href={project.githubLink} target="blank">
                                 <ion-icon name="logo-github"></ion-icon>
