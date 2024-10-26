@@ -32,7 +32,7 @@ const About = () => {
     }, []);
     
     return (
-    <section id='about' className='py-6 sm:pb-0 md:pt-12 lg:pt-24 lg:pb-12 bg-neutral-900'>
+    <section id='about' className='py-6 sm:pb-0 md:pt-12 lg:pt-24 lg:pb-12 text-white bg-neutral-900'>
 
         {/* start of socials */}
         <div className="z-40 fixed top-0 left-0 w-2 sm:w-9 md:w-28 min-h-screen grid place-items-center">
@@ -41,7 +41,7 @@ const About = () => {
                     {socials.map((item) => (
                         <div key={item.name} {...(navTop2 ? { className: 'invisible sm:visible' } : {className: 'hidden'})}>
                             <a href={item.href} target="_blank">  
-                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg ${item.res ? 'text-sky-600 hover:text-sky-700' : 'text-white hover:text-sky-600'}`}>
+                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg ${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'}`}>
                                     <ion-icon name={item.icon} size="large"></ion-icon>
                                 </div>
                             </a>
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
 
                 {/** -mt-80 sm:-mt-36 md:mt-0 px-6 sm:mt-1 md:mt-6*/}
-                <div className="text-white px-6 -mt-80 sm:-mt-0 xl:mt-12">
+                <div className="px-6 -mt-80 sm:-mt-0 xl:mt-12">
                     <br />
                     <h2 className='text-2xl sm:text-4xl font-bold text-center sm:text-left text-sky-700 sm:pt-32'>Hello, World! I&apos;m Tu</h2>
                     <br />

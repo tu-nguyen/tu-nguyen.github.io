@@ -48,11 +48,12 @@ const Job = ({ job }) => {
             </div>
             
             <h3 className="text-gray-600 mb-6">{job.date}</h3>
+            {/* hover:text-sky-700 hover:bg-gray-600 */}
             <div className="text-white">
                 {job.skills.map((skill) => (
                     <span
                     key={skill}
-                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-sky-600 mr-2 mb-2 hover:text-sky-700 hover:bg-gray-600"
+                    className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2"
                     >
                         {skill}
                     </span>

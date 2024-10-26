@@ -43,10 +43,10 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
                     <div className="p-6 text-md flex justify-center text-center h-auto">
                         <p className="px-3">{project.description}</p>
                     </div>
-
+                    {/* hover:text-sky-700 hover:bg-gray-600 */}
                     <div className="px-6 pt-4 text-center">
                         {project.technologiesUsed.map((tech) => (
-                        <span key={tech} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-sky-600 mr-2 mb-2 hover:text-sky-700 hover:bg-gray-600">
+                        <span key={tech} class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
                             {tech}
                         </span>
                         ))}
