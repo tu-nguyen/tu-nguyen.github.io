@@ -46,7 +46,7 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
 
                     <div className="px-6 pt-4 pb-2">
                         {project.technologiesUsed.map((tech) => (
-                        <span key={tech} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                        <span key={tech} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-sky-600 mr-2 mb-2 hover:text-sky-700 hover:bg-gray-600">
                             {tech}
                         </span>
                         ))}

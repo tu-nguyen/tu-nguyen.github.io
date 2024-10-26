@@ -1,8 +1,21 @@
 import React from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Job = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
+  const [isSmol, setIsSmol] = useState(false)
+
+  const handleResize = () => {
+    if (window.innerWidth < 720) {
+        setIsSmol(true)
+    } else {
+        setIsSmol(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize)
+  })
 
   let description = job.description;
   let skills = job.skills.join("  •  ");
@@ -14,12 +27,12 @@ const Job = ({ job }) => {
   function JobItemA({alignment = '' }) {
     return (
         <div className={`mb-4 ${alignment}`}>
-            <h2 className="text-sky-600 text-xl font-bold">
+            <h2 className="text-sky-600 text-2xl font-extrabold">
                 {job.title}
             </h2>
             <a className ="text-white hover:text-sky-600" href={`${job.link}`}>{job.company} </a>
             
-            <div className="text-white mb-5">
+            <div className="text-white mb-5 p-3">
                 {description}
             </div>
             <button onClick={() => setShowFullDescription((prevState) => !prevState)} className="text-sky-600 margin-bm-5 hover:text-sky-700">{ showFullDescription ? 'Less' : 'More'}</button>
@@ -34,15 +47,31 @@ const Job = ({ job }) => {
                 {job.location}
             </div>
             
-            <h3 className="text-gray-600 mb-2">{job.date}</h3>
-            <div className="text-sky-600">
-                {skills}
+            <h3 className="text-gray-600 mb-6">{job.date}</h3>
+            <div className="text-white">
+                {job.skills.map((skill) => (
+                    <span
+                    key={skill}
+                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-sky-600 mr-2 mb-2 hover:text-sky-700 hover:bg-gray-600"
+                    >
+                        {skill}
+                    </span>
+                ))}
             </div>
         </div>
     )
   }
 
   function JobCard({ job }) {
+    if (isSmol) {
+        return (
+            <>
+                <JobItemA title={job.title} company={job.company} skills={skills} alignment='text-center'/>
+                <JobItemB location={job.location} date={job.date} alignment='text-center'/>
+            </>
+        )
+    }
+
     if (job.id % 2 === 0) {
         return (
             <>

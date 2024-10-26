@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Languages",
-        "skills": ["Python", "JavaScript", "SQL", "HTML/5", "CSS/3"]
+        "skills": ["Python", "JavaScript", "TypeScript", "SQL", "HTML/5", "CSS/3"]
     },
     {
         "id": 2,

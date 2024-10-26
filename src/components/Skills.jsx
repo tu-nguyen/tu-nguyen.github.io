@@ -6,7 +6,7 @@ const Skills = () => {
     <section id='skills' className="pt-12 sm:pt-24 md:pt-24">
         <div className="min-h-screen xl:min-h-fit">
 
-            <h2 className="text-white text-3xl pt-12 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-16">
+            <h2 className="text-white text-3xl pt-12 sm:py-6 font-extrabold text-center sm:text-5xl xl:py-16">
                 Skills
             </h2>
             <span className='hr'></span>
@@ -15,7 +15,8 @@ const Skills = () => {
 
                 <div className="pt-6 grid gap-6 grid-cols-1 px-3 sm:px-6 sm:grid-cols-2 md:grid-cols-3 xl:py-16">
                     <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                        <div className='text-center pt-6 skill-icon'>
+                        <div className='text-center p-6 skill-icon'>
+                            {/* hover:animate-pulse */}
                             <ion-icon name="desktop-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center m-6 pb-3 border-b-2 border-sky-600">Full-Stack Web Development</h3>
@@ -25,7 +26,8 @@ const Skills = () => {
                         
                     </div>
                     <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                        <div className='text-center pt-6 skill-icon'>
+                        <div className='text-center p-6 skill-icon'>
+                            {/* hover:animate-spin */}
                             <ion-icon name="cog-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Automation, Testing, Pipeline</h3>
@@ -34,7 +36,8 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="max-w-sm rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-                        <div className='text-center pt-6 skill-icon'>
+                        <div className='text-center p-6 skill-icon'>
+                            {/* hover:animate-bounce */}
                             <ion-icon name="book-outline"></ion-icon>
                         </div>
                         <h3 className="min-h-max text-white text-2xl font-bold text-center  m-6 pb-3 border-b-2 border-sky-600">Infinitely curious, Tech agnostic</h3>
