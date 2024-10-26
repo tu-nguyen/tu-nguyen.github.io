@@ -57,6 +57,14 @@ html, body {
     color: white;
 }
 
+.hero_msg {
+    padding-top:24px;
+}
+
+.hero_msg a {
+    text-decoration: none;
+}
+
 /* navbar */
 #navbar {
     overflow: hidden;
