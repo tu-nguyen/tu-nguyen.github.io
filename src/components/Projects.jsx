@@ -36,7 +36,7 @@ const Projects = () => {
     return (
     <section id= 'projects' className='pt-12 sm:pt-24 md:pt-24 lg:pt-24 text-white'>
         <div className="min-h-screen xl:min-h-fit">
-            <h2 className='text-white text-3xl pt-16 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-16'>
+            <h2 className='text-white text-3xl pt-16 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-6'>
                 Projects
             </h2>
             <hr className='w-48 h-1 mx-auto my-4 bg-sky-600 border-0 rounded md:mt-10 md:mb-1 dark:bg-sky-700'></hr>

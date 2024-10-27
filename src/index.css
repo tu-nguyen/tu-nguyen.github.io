@@ -133,3 +133,7 @@ button {
 .project-icon > .demo-icon > ion-icon {
   font-size: 32px;
 }
+
+.skill-icon > ion-icon {
+  font-size: 42px;
+}

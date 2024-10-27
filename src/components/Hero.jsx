@@ -23,7 +23,7 @@ const Hero = ({
                         <div key={item.name}>
                             <a
                             href={item.href}
-                            className={`${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'}`}
+                            className={`${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'} active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300`}
                             target="_blank"
                             >
                                 &lt;{item.name}&gt;
@@ -36,11 +36,11 @@ const Hero = ({
             <div>
                 <div className="grid place-items-center grid-cols-1 md:grid-cols-2 text-lg pt-10 gap-3 md:gap-6">
                     <div>
-                        <a href="./v1/index.html"><h4 className="text-white"><strong className="hover:text-sky-600" >click here</strong> to view v1</h4></a>
+                        <a href="./v1/index.html"><h4 className="text-white"><strong className="hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300" >click here</strong> to view v1</h4></a>
                     </div>
                     
                     <div>
-                        <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600"><strong className="text-sky-600 hover:text-sky-700">click here</strong> to view terminal</h4></a>
+                        <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600"><strong className="text-sky-600 hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300">click here</strong> to view terminal</h4></a>
                     </div>
                 </div>
             </div>

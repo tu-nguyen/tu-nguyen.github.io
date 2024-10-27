@@ -1,6 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import logo from '../assets/images/logo.png'
+import React, { useEffect, useRef, useState } from 'react'
 import profile from '../assets/images/profile.jpg'
 import socials from '../data/socials.json'
 
@@ -46,30 +44,30 @@ const Navbar = () => {
 
     return (
     <Disclosure as="nav" className="sticky top-0 -mt-20 z-50 bg-black">
-            <div className='mx-auto max-w-7xl px-3 sm:px-6 sm:lg:px-8'>
-                <div className='relative flex h-16 sm:h-20 items-center justify-between'>
-                    {/* Profile dropdown */}
-                    <Menu as="div" className="absolute right-0 items-center sm:hidden">
-                        <div>
-                            <MenuButton className="relative flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                                
-                                <span className="absolute -inset-1.5" />
-                                <span className="sr-only">Open social menu</span>
-                                <img
-                                alt=""
-                                src={profile}
-                                className="h-8 w-8 rounded-full"
-                                />
-                            </MenuButton>
-                        </div>
+        <div className='mx-auto max-w-7xl px-3 sm:px-6 sm:lg:px-8'>
+            <div className='relative flex h-16 sm:h-20 items-center justify-between'>
+
+                {/* Social dropdown */}
+                <Menu as="div" className="absolute right-0 items-center sm:hidden">
+                    <div>
+                        <MenuButton className="relative flex text-sm text-sky-600 hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300">
+                            <span className="absolute -inset-1.5" />
+                            <span className="sr-only">Open social menu</span>
+                            <img
+                            alt=""
+                            src={profile}
+                            className="h-8 w-8 rounded-full"
+                            />
+                        </MenuButton>
+                    </div>
                     <MenuItems
                     transition
-                    className={`absolute right-0 z-10 bg-black text-white ${socialTop ? 'mt-62' : '-mt-72'} w-32 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in`}
+                    className={`absolute right-0 z-10 bg-black text-white ${socialTop ? 'mt-62' : '-mt-72'} w-32 origin-top-right rounded-md bg-neutral-900 py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in`}
                     >
                         {socials.map((item) => (
                             <MenuItem key={item.name}>
-                                <a href={item.href}>
-                                    <div className={`grid grid-cols-2 px-6 py-3 text-sm text-white data-[focus]:bg-gray-100 text-gray-300 hover:bg-gray-700 hover:text-white ${item.res ? 'bg-sky-600 hover:bg-sky-700' : undefined}`}>
+                                <a href={item.href} target="_blank">
+                                    <div className={`grid grid-cols-2 px-6 py-3 text-sm text-white data-[focus]:bg-gray-100 hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300 ${item.res ? 'font-bold bg-sky-600 hover:bg-sky-700' : undefined}`}>
                                         <ion-icon name={item.icon} size="small"></ion-icon>
                                         {item.name}
                                     </div>
@@ -78,11 +76,14 @@ const Navbar = () => {
                         ))}
                     </MenuItems>
                 </Menu>
+                {/* End of social dropdown */}
+
+                {/* hamburg nav */}
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden" ref={btnRef}>
-                    {/* hamburg */}
+                    
                     <DisclosureButton
                     onClick={onClick}
-                    className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-sky-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                    className="group relative inline-flex items-center justify-center rounded-md p-2 text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                     >
                         <span className="absolute -inset-0.5" />
                         <span className="sr-only">Open main menu</span>
@@ -90,14 +91,16 @@ const Navbar = () => {
                         <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
                     </DisclosureButton>
                 </div>
-                
+                {/* end of hamburg nav */}
+            
                 {/* todo add logo */}
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                     <a href='#' className='flex flex-shrink-0 items-center'>
-                        <span className="h-8 w-auto text-white text-xl font-bold uppercase">&lt;Tu /&gt;</span>
+                        <span className="h-8 w-auto text-white hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300 text-xl font-bold uppercase">&lt;Tu /&gt;</span>
                     </a>
                 </div>
-
+                
+                {/* nav */}
                 <div className="hidden sm:ml-6 sm:block sm:flex-center">
                     <div className="flex space-x-4">
                         {navigation.map((item) => (
@@ -106,8 +109,8 @@ const Navbar = () => {
                             href={item.href}
                             aria-current={item.current ? 'page' : undefined}
                             className={classNames(
-                                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                'rounded-md px-3 py-2 text-sm font-medium uppercase',
+                                item.current ? 'bg-gray-900 text-sky-600' : 'text-white hover:text-sky-700',
+                                'rounded-md px-3 py-2 text-sm font-medium uppercase active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300',
                             )}
                             >
                                 {item.name}
@@ -115,8 +118,10 @@ const Navbar = () => {
                         ))}
                     </div>
                 </div>
+                {/* end of nav */}
             </div>
 
+            {/* hamb nav items */}    
             <DisclosurePanel className="sm:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     {navigation.map((item) => (
@@ -126,8 +131,8 @@ const Navbar = () => {
                         href={item.href}
                         aria-current={item.current ? 'page' : undefined}
                         className={classNames(
-                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                            'block rounded-md px-3 py-2 text-base font-medium uppercase',
+                            item.current ? 'bg-gray-900 text-sky-600' : 'text-white hover:text-sky-700',
+                            'block rounded-md px-3 py-2 text-base font-medium uppercase active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300',
                         )}
                         >
                             {item.name}
@@ -135,6 +140,7 @@ const Navbar = () => {
                     ))}
                 </div>
             </DisclosurePanel>
+            {/* end of hamb nav items */}    
         </div>
     </Disclosure>
     )

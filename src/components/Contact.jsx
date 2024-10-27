@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
     <section id='contact' className='pt-12 sm:pt-24 md:pt-24 md:pb-24 lg:pt-24 min-h-screen lg:min-h-[60vh] text-white bg-neutral-950'>            
-        <h1 className="text-3xl pt-16 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-16">Contact</h1>
+        <h1 className="text-3xl pt-16 sm:pt-6 font-extrabold text-center sm:text-5xl xl:py-6">Contact</h1>
         <hr className='w-48 h-1 mx-auto my-4 bg-sky-600 border-0 rounded md:mt-10 md:mb-1 dark:bg-sky-700'></hr>
 
         <div className="container m-auto">
