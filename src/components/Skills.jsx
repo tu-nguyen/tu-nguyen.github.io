@@ -89,7 +89,7 @@ const Skills = () => {
             <div className="container m-auto">
                 {/* main skills card */}
                 <div className="pt-6 grid gap-6 grid-cols-1 px-3 pb-6 sm:pb-8 md:pb-12 sm:px-6 sm:grid-cols-2 md:grid-cols-3">
-                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 text-gray-300 hover:text-white hover:scale-[1.01] hover:shadow-xl">
                         <div className='text-center p-0 sm:p-3 skill-icon'>
                             {/* hover:animate-pulse */}
                             <ion-icon name="desktop-outline"></ion-icon>
@@ -100,7 +100,7 @@ const Skills = () => {
                         </div>
                         
                     </div>
-                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 text-gray-300 hover:text-white hover:scale-[1.01] hover:shadow-xl">
                         <div className='text-center p-0 sm:p-3 skill-icon'>
                             {/* hover:animate-spin */}
                             <ion-icon name="cog-outline"></ion-icon>
@@ -110,7 +110,7 @@ const Skills = () => {
                             <p>Dedicated to streamlining workflows—I&apos;ll gladly spend a week automating a task that takes only minutes, because efficiency is everything. Robust CI/CD pipelines ensure every release is fast and reliable.</p>
                         </div>
                     </div>
-                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+                    <div className=" rounded-lg px-3 sm:px-6 shadow-md rounded-xl duration-500 text-gray-300 hover:text-white hover:scale-[1.01] hover:shadow-xl">
                         <div className='text-center p-0 sm:p-3 skill-icon'>
                             {/* hover:animate-bounce */}
                             <ion-icon name="book-outline"></ion-icon>

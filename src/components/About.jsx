@@ -41,7 +41,7 @@ const About = () => {
                     {socials.map((item) => (
                         <div key={item.name} {...(navTop2 ? { className: 'invisible sm:visible' } : {className: 'hidden'})}>
                             <a href={item.href} target="_blank">  
-                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg ${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'}`}>
+                                <div className={`sm:ml-6 rounded-md px-4 py-6 text-lg hover:scale-[1.01] ${item.res ? 'text-sky-600 hover:text-sky-700' : 'hover:text-sky-600'}`}>
                                     <ion-icon name={item.icon} size="large"></ion-icon>
                                 </div>
                             </a>

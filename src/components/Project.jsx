@@ -34,7 +34,7 @@ const Project = ({ project }) => {
         project={project}
         />
         
-        <div className={`py-6  sm:w-auto shadow-md rounded-xl sm:duration-500 sm:hover:scale-105 hover:shadow-xl filter-item ${tech_filter}`}> 
+        <div className={`py-6  sm:w-auto shadow-md rounded-xl sm:duration-500 sm:transition sm:hover:scale-[1.01] hover:shadow-xl filter-item ${tech_filter}`}> 
             <div className="flex flex-cols-2 flex-wrap sm:grid sm:grid-cols-1 px-6 sm:px-3">
                 <img
                     className="h-24 w-32 sm:h-48 sm:w-64 object-fit rounded-t-xl"

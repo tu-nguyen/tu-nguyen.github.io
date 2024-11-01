@@ -12,14 +12,14 @@ function PreviewImg({ project }) {
 function Demo({ project }) {
     if (project.demo) {
         return (
-            <a href={project.demoLink} target="blank" className="hover:text-sky-600">
-                &lt;demo&gt;
+            <a href={project.demoLink} target="blank" className="hover:text-sky-600 transition duration-300 hover:scale-[1.01]">
+                &lt;view live&gt;
             </a>
         )
     } else {
         return (
             <p className="text-red-600">
-                &lt;demo&gt;  
+                &lt;view live&gt;  
             </p>
         )
     }
@@ -53,7 +53,7 @@ const ProjectModal = ({ isShowing, hide, project }) => isShowing ? ReactDOM.crea
                     </div>
 
                     <div className="flex items-center justify-center">
-                        <div className="pt-6 px-6 hover:text-sky-600"><a href={project.githubLink} target="blank">&lt;code&gt;</a></div>
+                        <div className="pt-6 px-6 hover:text-sky-600 transition duration-300 hover:scale-[1.01]"><a href={project.githubLink} target="blank">&lt;view code&gt;</a></div>
                         <div className="pt-6 px-6">{Demo({project})}</div>
                     </div>
                 </div>
