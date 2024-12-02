@@ -56,7 +56,7 @@ const Projects = () => {
                         <button type="button" className={`${button_style}  ${filterKey=='react' ? 'active' : ''}`} onClick={handleFilterKeyChange('react')}>React</button>
                         <button type="button" className={`${button_style}  ${filterKey=='nextjs' ? 'active' : ''}`} onClick={handleFilterKeyChange('nextjs')}>NextJS</button>
                         <button type="button" className={`${button_style}  ${filterKey=='nodejs' ? 'active' : ''}`} onClick={handleFilterKeyChange('nodejs')}>NodeJS</button>
-                        <br />
+                        {/* <br /> */}
                         {/* <button type="button" className={`${button_style}  ${filterKey=='web' ? 'active' : ''}`} onClick={handleFilterKeyChange('web')}>Web</button> */}
                         {/* <button type="button" className={`${button_style}  ${filterKey=='mobile' ? 'active' : ''}`} onClick={handleFilterKeyChange('mobile')}>Mobile</button> */}
                         {/* <button type="button" className={`${button_style}  ${filterKey=='app' ? 'active' : ''}`} onClick={handleFilterKeyChange('app')}>App</button> */}

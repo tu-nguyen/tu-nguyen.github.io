@@ -43,7 +43,7 @@ const Project = ({ project }) => {
                 />
 
                 <div className="flex flex-col-reverse sm:flex-col px-3 sm:px-6 sm:pt-3 sm:px-3">
-                    <h2 className='text-white font-bold sm:text-lg text-center' onClick={toggle}>
+                    <h2 className='text-red font-bold sm:text-lg text-center ' onClick={toggle}>
                         {project.title}
                     </h2>
 

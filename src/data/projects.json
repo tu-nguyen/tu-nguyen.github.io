@@ -13,7 +13,7 @@
     },
     {
         "id": 8,
-        "title": "razer-mouse-battery-notify",
+        "title": "mouse-batt-notif",
         "description": "A Python script that shows the battery level of a Razer Viper V2 Pro Wireless mouse (or other Razer mouse with modification) as a notification to your Home Assistant.",
         "technologiesUsed": ["Python", "PowerShell", "API"],
         "imageLink": "./assets/images/projects/8/project8.jpg",
@@ -25,30 +25,42 @@
     },
     {
         "id": 7,
-        "title": "django-comichost",
-        "description": "Comic hosting website made with Python, Django, PostgreSQL deployed to Heroku.",
-        "technologiesUsed": ["Python", "Django", "JavaScript", "NodeJS", "PostgreSQL", "API"],
+        "title": "Boston Crime EDA",
+        "description": "Analytical Exploration of Boston Crime Statistics from 2012 - 2015.",
+        "technologiesUsed": ["Python", "numpy", "pandas", "matplotlib", "seaborn", "Jupyter Notebook", "Data Science", "Other"],
         "imageLink": "./assets/images/projects/7/project7.png",
-        "previewImageLink": "./assets/images/projects/7/project7.png",
-        "githubLink": "https://github.com/tu-nguyen/django-comichost",
+        "previewImageLink": "./assets/images/projects/7/project7preview.png",
+        "githubLink": "https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015",
         "demo": true,
-        "demoLink": "https://sheltered-dusk-19931-1c9a82efd65a.herokuapp.com/",
-        "date": "2023/10"
+        "demoLink": "https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics/blob/main/Analytical%20Exploration%20of%20Boston%20Crime%20Statistics.ipynb",
+        "date": "Mar 2019"
     },
     {
         "id": 6,
-        "title": "burrito-bot",
-        "description": "Discord and Twitch bot for the burrito guy server written with NodeJS; listens for clips and post on discord as well as other commands. Deployed on AWS.",
-        "technologiesUsed": ["JavaScript", "NodeJs", "API", "AWS"],
+        "title": "django-comichost",
+        "description": "Comic hosting website made with Python, Django, PostgreSQL deployed to Heroku.",
+        "technologiesUsed": ["Python", "Django", "JavaScript", "NodeJS", "PostgreSQL", "API"],
         "imageLink": "./assets/images/projects/6/project6.png",
-        "previewImageLink": "./assets/images/projects/6/project6preview.png",
-        "githubLink": "https://github.com/tu-nguyen/burrito-bot",
-        "demo": false,
-        "demoLink": "",
-        "date": "2022/05"
+        "previewImageLink": "./assets/images/projects/6/project6.png",
+        "githubLink": "https://github.com/tu-nguyen/django-comichost",
+        "demo": true,
+        "demoLink": "https://sheltered-dusk-19931-1c9a82efd65a.herokuapp.com/",
+        "date": "Oct 2023"
     },
     {
         "id": 5,
+        "title": "burrito-bot",
+        "description": "Discord and Twitch bot for the burrito guy server written with NodeJS; listens for clips and post on discord as well as other commands. Deployed on AWS.",
+        "technologiesUsed": ["JavaScript", "NodeJs", "API", "AWS"],
+        "imageLink": "./assets/images/projects/5/project5.png",
+        "previewImageLink": "./assets/images/projects/5/project5preview.png",
+        "githubLink": "https://github.com/tu-nguyen/burrito-bot",
+        "demo": false,
+        "demoLink": "",
+        "date": "May 2022"
+    },
+    {
+        "id": 4,
         "title": "django-chatapp",
         "description": "Real time Chat Room App made with Python, Django, Javascript, and AJAX.",
         "technologiesUsed": ["Python", "Django", "JavaScript"],
@@ -57,33 +69,19 @@
         "githubLink": "https://github.com/tu-nguyen/django-chatapp",
         "demo": false,
         "demoLink": "",
-        "date": "2021/06"
-    },
-
-
-    {
-        "id": 4,
-        "title": "django-todo-list",
-        "description": "Todolist using Django and Python. SQLite DB for user and list databases. Bootstrap 4, and CrispyForms also used.",
-        "technologiesUsed": ["Python", "Django", "JavaScript", "SQL"],
-        "imageLink": "./assets/images/projects/4/project4.png",
-        "previewImageLink": "./assets/images/projects/4/project4preview.png",
-        "githubLink": "https://github.com/tu-nguyen/django-chatapp",
-        "demo": false,
-        "demoLink": "",
-        "date": "2021/06"
+        "date": "Jun 2021"
     },
     {
         "id": 3,
-        "title": "Boston Crime EDA",
-        "description": "Basic EDA with Boston's crime data from 2012 - 2015.",
-        "technologiesUsed": ["Python", "numpy", "pandas", "matplotlib", "seaborn", "Jupyter Notebook", "Data Science", "Other"],
+        "title": "django-todo-list",
+        "description": "Todolist using Django and Python. SQLite DB for user and list databases. Bootstrap 4, and CrispyForms also used.",
+        "technologiesUsed": ["Python", "Django", "JavaScript", "SQL"],
         "imageLink": "./assets/images/projects/3/project3.png",
         "previewImageLink": "./assets/images/projects/3/project3preview.png",
-        "githubLink": "https://github.com/tu-nguyen/analytical-exploration-of-Boston-crime-statistics-2012-2015",
+        "githubLink": "https://github.com/tu-nguyen/django-chatapp",
         "demo": false,
         "demoLink": "",
-        "date": "2019/04"
+        "date": "Jun 2021"
     },
     {
         "id": 2,
@@ -95,7 +93,7 @@
         "githubLink": "https://github.com/tu-nguyen/multiWeather",
         "demo": false,
         "demoLink": "",
-        "date": "2017/12"
+        "date": "Dec 2017"
     },
     {
         "id": 1,
@@ -107,6 +105,6 @@
         "githubLink": "https://github.com/tu-nguyen/cs443-project",
         "demo": false,
         "demoLink": "",
-        "date": "2017/12"
+        "date": "Dec 2017"
     }
 ]
