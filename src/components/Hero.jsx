@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import socials from '../data/socials.json'
 
 const Hero = ({
@@ -32,19 +31,19 @@ const Hero = ({
                     ))}
                 </div>
             </div>
-            
+
             <div>
-                <div className="grid place-items-center grid-cols-1 md:grid-cols-2 text-lg pt-10 gap-3 md:gap-6">
-                    <div>
+                <div className="grid place-items-center grid-cols-1 text-lg pt-10 gap-3 md:gap-6">
+                    {/* <div>
                         <a href="./v1/index.html"><h4 className="text-white"><strong className="hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300" >click here</strong> to view v1</h4></a>
-                    </div>
-                    
+                    </div> */}
+
                     <div>
                         <a href="https://tu-nguyen.github.io/terminal-portfolio/"><h4 className="text-sky-600"><strong className="text-sky-600 hover:text-sky-700 active:text-sky-800 focus:outline-none focus:ring focus:ring-sky-300">click here</strong> to view terminal</h4></a>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     )
