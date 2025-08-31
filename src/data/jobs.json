@@ -1,5 +1,15 @@
 [
     {
+        "id": 4,
+        "title": "Software Engineer",
+        "company": "RSGInc",
+        "link": "https://rsginc.com/",
+        "location": "Boston, MA",
+        "description": "Architected and implemented CI/CD pipelines with GitHub Actions to automate software delivery and improve code quality. Containerized applications using Docker to standardize development environments and streamline deployments across all stages.",
+        "date": "Jan 2025 - Present",
+        "skills": ["Python", "Django", "DevOp", "Azure", "RESTful APIs", "Back-End Web Development"]
+    },
+    {
         "id": 3,
         "title": "Software Engineer II",
         "company": "Perch",
