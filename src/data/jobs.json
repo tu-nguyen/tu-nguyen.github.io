@@ -5,9 +5,9 @@
         "company": "RSGInc",
         "link": "https://rsginc.com/",
         "location": "Boston, MA",
-        "description": "Architected and implemented CI/CD pipelines with GitHub Actions to automate software delivery and improve code quality. Containerized applications using Docker to standardize development environments and streamline deployments across all stages.",
-        "date": "Jan 2025 - Present",
-        "skills": ["Python", "Django", "DevOp", "Azure", "RESTful APIs", "Back-End Web Development"]
+        "description": "Architected and implemented automated CI/CD pipelines using GitHub Actions, significantly accelerating software delivery cycles. Orchestrated containerized applications with Docker to ensure environment parity and high-availability deployments across hybrid-cloud infrastructures.",
+        "date": "Jan 2025 - Jan 2026",
+        "skills": ["Python", "Django", "DevOps", "Azure", "GitHub Actions", "Docker", "CI/CD", "RESTful APIs"]
     },
     {
         "id": 3,
@@ -15,9 +15,9 @@
         "company": "Perch",
         "link": "https://www.perchhq.com/",
         "location": "Boston, MA",
-        "description": "Wrote clean, well tested and maintainable code for the cloud-based internal system, mainly working with Python, Django, and PostgreSQL. Integrated 3rd party APIs and extensive use of Django REST APIs framework.",
+        "description": "Developed robust, scalable backend services for cloud-native internal systems using Python and Django. Engineered complex 3rd party API integrations and optimized database performance with PostgreSQL to handle high-concurrency workloads.",
         "date": "Jun 2021 - Mar 2024",
-        "skills": ["Python", "Django", "SQL", "AWS", "RESTful APIs", "Back-End Web Development"]
+        "skills": ["Python", "Django", "PostgreSQL", "AWS", "RESTful APIs", "System Architecture"]
     },
     {
         "id": 2,
@@ -25,9 +25,9 @@
         "company": "ADUSA Procurement",
         "link": "https://www.adusa.com/",
         "location": "Quincy, MA",
-        "description": "Monitored the administration and upkeep of a centralized SQL Server and Oracle Database supporting ordering, inventory, and forecasting systems for 750+ stores across three prominent supermarket brands. As a side project, I created internal tools/applications using Python, still used today by the team.",
+        "description": "Managed enterprise-level SQL Server and Oracle databases supporting forecasting and inventory for 750+ retail locations. Leveraged Python to develop custom internal automation tools that remain critical to team operations today.",
         "date": "Jul 2018 - Jun 2021",
-        "skills": ["SQL", "Excel", "Python", "Data Integrity", "Software Documentation"]
+        "skills": ["SQL", "Python", "Oracle DB", "Automation", "Data Integrity", "Technical Documentation"]
     },
     {
         "id": 1,
@@ -37,6 +37,6 @@
         "location": "Boston, MA",
         "description": "Managed a team of three to merchandise products, manage store inventory, and order stock. Trained and supervised new associates and managers on store procedures and policies.",
         "date": "Aug 2011 - Jul 2019",
-        "skills": ["Customer Service", "Cash Handling", "Photo", "Training"]
+        "skills": ["Leadership", "Inventory Management", "Training & Mentorship", "Operational Excellence"]
     }
 ]

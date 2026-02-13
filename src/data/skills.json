@@ -6,29 +6,27 @@
     },
     {
         "id": 2,
-        "title": "Backend & Full-Stack Frameworks",
-        "skills": ["Django", "Node.js", "Express", "FastAPI / Flask", "Redis"]
+        "title": "Backend & Cloud Architecture",
+        "skills": ["Django", "Node.js", "Express", "FastAPI / Flask", "RESTful APIs", "Redis"]
     },
     {
         "id": 3,
-        "title": "Frontend Development & UI Frameworks",
-        "skills": ["HTML/5", "CSS/3", "React", "Bootstrap", "TailWind CSS"]
+        "title": "DevOps & Infrastructure",
+        "skills": ["AWS", "Azure", "Caddy & Nginx", "Docker", "Kubernetes"]
     },
     {
         "id": 4,
         "title": "Data Engineering & Scientific Libraries",
-        "skills": ["Pandas", "NumPy", "Kafta", "SQL / NoSQL"]
+        "skills": ["Docker", "Kubernetes", "GitHub Actions", "AWS / Azure", "CI/CD Automation", "Nginx / Caddy"]
     },
     {
         "id": 5,
-        "title": "DevOps & Cloud Technologies",
-        "skills": ["AWS", "Azure", "Caddy & Nginx", "Docker", "Kubernetes"]
+        "title": "Frontend & UI Design",
+        "skills": ["React", "HTML5 / CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"]
     },
     {
         "id": 6,
         "title": "Technologies Out of Practice",
-        "skills": ["Qt / .NET", "PHP", "Java", "C/C++", "C#"]
+        "skills": ["PHP", "Java", "C / C++", "C# / .NET", "Qt"]
     }
-
-
 ]
